@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--Game View Controller-->
+        <!--BIENVENIDO-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
-                <viewController id="9pv-A4-QxB" customClass="GameViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="BIENVENIDO" id="9pv-A4-QxB" customClass="GameViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -35,6 +35,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="fhk-1D-Z75"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1562" y="-320"/>
         </scene>
@@ -122,10 +123,10 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--S-->
+        <!--Seleccionar objeto-->
         <scene sceneID="eL3-Hz-Cfg">
             <objects>
-                <viewController title="S" id="tNb-Wj-eAg" customClass="GameViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Seleccionar objeto" id="tNb-Wj-eAg" customClass="GameViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DhQ-g4-AGs"/>
                         <viewControllerLayoutGuide type="bottom" id="ZXn-B3-v1h"/>
@@ -158,10 +159,10 @@
             </objects>
             <point key="canvasLocation" x="2222" y="-328"/>
         </scene>
-        <!--Juego-->
+        <!--PAGAR-->
         <scene sceneID="TWe-lO-b4q">
             <objects>
-                <viewController id="Wvq-nw-KOH" customClass="GameViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="PAGAR" id="Wvq-nw-KOH" customClass="GameViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="06M-87-Fyc"/>
                         <viewControllerLayoutGuide type="bottom" id="Wsy-de-YRB"/>
