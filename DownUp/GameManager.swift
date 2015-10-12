@@ -9,33 +9,46 @@
 import Foundation
 
 class GameManager {
-    var objects: [Item] = [
+    var items: [Item] = [
         Item(img: "osito.jpg", price: 20),
         Item(img: "asd.jpg", price: 100)
     ]
-    var itemToBuy: Item
+    var itemToBuy: Item?
     var moneyAcum: Int
     
-    func selectObject() {
-        
+    func selectItem(item: String) -> Item? {
+        for i in items {
+            if item == i.img {
+                return i
+            }
+        }
+        return Optional<Item>()
     }
     
-    func startGame() {}
+    func startGame(itemToBuy: String) {
+        self.itemToBuy = selectItem(itemToBuy)
+    }
     
     func gameHasFinished() -> Bool {
         return false
     }
     
-    func addQuantity(q: Int) {
-        moneyAcum += q
+    func addQuantity(bill: Bill) -> Bool {
+        if bill.quantity + moneyAcum <= itemToBuy?.price {
+            moneyAcum += bill.quantity
+            return true
+        } else {
+            return false
+        }
+        
     }
     
     func moneyLeft() -> Int {
-        return 0
+        return (itemToBuy?.price)! - moneyAcum
     }
     
     init() {
-        itemToBuy = Item(img: "nothing.jpg", price: 0)
+        itemToBuy = Optional<Item>()
         moneyAcum = 0
     }
     
