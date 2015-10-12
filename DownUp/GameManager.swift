@@ -25,6 +25,13 @@ class GameManager {
 
     var itemToBuy: Item?
     var moneyAcum: Int
+    var successful: Bool
+
+	func checkForError() {
+		if (successful == false) {
+			println("Casi lo logras! te pasaste por tantito.")
+		}
+	}
     
     func selectItem(item: String) -> Item? {
         for i in items {
@@ -48,13 +55,12 @@ class GameManager {
     }
     
     func addQuantity(bill: Bill) -> Bool {
-        if bill.quantity + moneyAcum <= itemToBuy?.price {
-            moneyAcum += bill.quantity
-            return true
-        } else {
-            return false
-        }
-        
+    	if bill.quantity + moneyAcum <= itemToBuy?.price {
+			moneyAcum += bill.quantity
+			successful = true
+		} else {
+			successful = false
+		}
     }
     
     func moneyLeft() -> Int {
