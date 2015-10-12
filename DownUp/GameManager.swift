@@ -30,7 +30,11 @@ class GameManager {
     }
     
     func gameHasFinished() -> Bool {
-        return false
+        if moneyAcum >= itemToBuy?.price {
+			return true;
+		} else {
+			return false;
+		}
     }
     
     func addQuantity(bill: Bill) -> Bool {
