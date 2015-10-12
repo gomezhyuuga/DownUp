@@ -12,14 +12,14 @@ class GameManager {
     var objects: [Item] = [
         Item(img: "osito.jpg", price: 2),
         Item(img: "asd.jpg", price: 8),
-        Item(img: “cho.jpg", price: 7),
-        Item(img: “pan.jpg", price: 1),
-        Item(img: “cereal.jpg", price: 4),
-        Item(img: “leche.jpg", price: 5),
-        Item(img: “libro.jpg", price: 3),
-        Item(img: “ipad.jpg", price: 9),
-        Item(img: “lapiz.jpg", price: 6),
-        Item(img: “dulce.jpg", price: 4),
+        Item(img: "cho.jpg", price: 7),
+        Item(img: "pan.jpg", price: 1),
+        Item(img: "cereal.jpg", price: 4),
+        Item(img: "leche.jpg", price: 5),
+        Item(img: "libro.jpg", price: 3),
+        Item(img: "ipad.jpg", price: 9),
+        Item(img: "lapiz.jpg", price: 6),
+        Item(img: "dulce.jpg", price: 4),
        
     ]
 
