@@ -20,20 +20,6 @@
                ReferencedContainer = "container:DownUp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18DE69B91BA6584600FC3B71"
-               BuildableName = "DownUpTests.xctest"
-               BlueprintName = "DownUpTests"
-               ReferencedContainer = "container:DownUp.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

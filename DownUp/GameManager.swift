@@ -29,12 +29,12 @@ class GameManager {
 
 	func checkForError() {
 		if (successful == false) {
-			println("Casi lo logras! te pasaste por tantito.")
+			print("Casi lo logras! te pasaste por tantito.")
 		}
 	}
     
     func selectItem(item: String) -> Item? {
-        for i in items {
+        for i in objects {
             if item == i.img {
                 return i
             }
@@ -60,7 +60,8 @@ class GameManager {
 			successful = true
 		} else {
 			successful = false
-		}
+        }
+        return false
     }
     
     func moneyLeft() -> Int {
@@ -70,6 +71,11 @@ class GameManager {
     init() {
         itemToBuy = Optional<Item>()
         moneyAcum = 0
+        successful = true
     }
     
+    
+    
 }
+
+
