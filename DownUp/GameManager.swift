@@ -54,14 +54,13 @@ class GameManager {
 		}
     }
     
-    func addQuantity(bill: Bill) -> Bool {
-    	if bill.quantity + moneyAcum <= itemToBuy?.price {
-			moneyAcum += bill.quantity
-			successful = true
+    func addQuantity(quantity: Int) -> Bool {
+    	if quantity + moneyAcum <= itemToBuy?.price {
+			moneyAcum += quantity
+			return true
 		} else {
-			successful = false
+			return false
         }
-        return false
     }
     
     func moneyLeft() -> Int {
