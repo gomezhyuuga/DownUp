@@ -10,7 +10,7 @@ import Foundation
 
 class GameManager {
     var objects: [Item] = [
-        Item(img: "osito.png", price: 2),
+        Item(img: "osito.png", price: 20),
         Item(img: "manzana.png", price: 8),
         Item(img: "chocolate.png", price: 7),
         Item(img: "pan.png", price: 1),
