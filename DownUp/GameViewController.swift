@@ -60,7 +60,7 @@ class GameViewController: UIViewController {
             alert("Te pasaste de dinero")
         }
         if (game.gameHasFinished()) {
-            alert("¡FELICIDADES! MANEJAS MUY BIEN EL DINERO")
+            alert("¡Felicidades! Manejas muy bien el dinero!!!")
         }
     }
     
@@ -70,12 +70,12 @@ class GameViewController: UIViewController {
     }
     
     private func updateUI() {
-        self.lblAcum.text = "$\(game.moneyAcum) PESOS"
+        self.lblAcum.text = "LLEVAS $\(game.moneyAcum) PESOS"
         self.lblMoneyLeft.text = "$\(game.moneyLeft()) PESOS"
     }
     
     private func alert(msg: String) {
-        UIAlertView(title: "AVISO", message: msg, delegate: nil, cancelButtonTitle: "OK").show()
+        UIAlertView(title: "Mensaje", message: msg, delegate: nil, cancelButtonTitle: "OK").show()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -89,7 +89,7 @@ class GameViewController: UIViewController {
         self.lblPrice.text = "$\(price!) PESOS"
         self.lblMoneyLeft.text = "$\(price) PESOS"
         self.selected = [Int]()
-        for i in 1...110 {
+        for _ in 1...110 {
             selected.append(0)
         }
     }
