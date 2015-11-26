@@ -32,6 +32,7 @@
 		18FF67611BCC5B880090110F /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF67601BCC5B880090110F /* Bill.swift */; };
 		18FF67631BCC5EF60090110F /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF67621BCC5EF60090110F /* GameManager.swift */; };
 		18FF67691BCC60010090110F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF67681BCC60010090110F /* Item.swift */; };
+		51937CA41C0795E00085B471 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51937C9F1C0795520085B471 /* Charts.framework */; };
 		E5B51D951BD54214008182EB /* chocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D941BD54214008182EB /* chocolate.png */; };
 		E5B51D9F1BD5424F008182EB /* dulce.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D961BD5424F008182EB /* dulce.png */; };
 		E5B51DA01BD5424F008182EB /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D971BD5424F008182EB /* ipad.png */; };
@@ -51,6 +52,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 18DE69A21BA6584500FC3B71;
 			remoteInfo = DownUp;
+		};
+		51937C9E1C0795520085B471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51937C821C0795480085B471 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		51937CA01C0795520085B471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51937C821C0795480085B471 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		51937CA21C0795520085B471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51937C821C0795480085B471 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -84,6 +106,7 @@
 		18FF67601BCC5B880090110F /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		18FF67621BCC5EF60090110F /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		18FF67681BCC60010090110F /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		51937C821C0795480085B471 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		E5B51D941BD54214008182EB /* chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chocolate.png; sourceTree = "<group>"; };
 		E5B51D961BD5424F008182EB /* dulce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dulce.png; sourceTree = "<group>"; };
 		E5B51D971BD5424F008182EB /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
@@ -101,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51937CA41C0795E00085B471 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +153,7 @@
 		18DE699A1BA6584500FC3B71 = {
 			isa = PBXGroup;
 			children = (
+				51937C821C0795480085B471 /* Charts.xcodeproj */,
 				18DE69CC1BA65E3F00FC3B71 /* assets */,
 				18DE69A51BA6584500FC3B71 /* DownUp */,
 				18DE69BD1BA6584600FC3B71 /* DownUpTests */,
@@ -231,6 +256,16 @@
 			name = objects;
 			sourceTree = "<group>";
 		};
+		51937C991C0795520085B471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51937C9F1C0795520085B471 /* Charts.framework */,
+				51937CA11C0795520085B471 /* Charts.framework */,
+				51937CA31C0795520085B471 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,6 +335,12 @@
 			mainGroup = 18DE699A1BA6584500FC3B71;
 			productRefGroup = 18DE69A41BA6584500FC3B71 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 51937C991C0795520085B471 /* Products */;
+					ProjectRef = 51937C821C0795480085B471 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				18DE69A21BA6584500FC3B71 /* DownUp */,
@@ -307,6 +348,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		51937C9F1C0795520085B471 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 51937C9E1C0795520085B471 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51937CA11C0795520085B471 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 51937CA01C0795520085B471 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51937CA31C0795520085B471 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 51937CA21C0795520085B471 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		18DE69A11BA6584500FC3B71 /* Resources */ = {
