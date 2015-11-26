@@ -57,6 +57,33 @@ RXN0YWQFw61zdGljYXM
                                 <animations/>
                                 <color key="backgroundColor" red="0.88666371005134326" green="0.87978129153226936" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d9T-gB-dls">
+                                <rect key="frame" x="77" y="811" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="Nivel 1"/>
+                                <connections>
+                                    <action selector="pressedLvButton:" destination="8rJ-Kc-sve" eventType="touchDown" id="VZG-0S-uSW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9u6-Vi-YAT">
+                                <rect key="frame" x="618" y="811" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="Nivel 3"/>
+                                <connections>
+                                    <action selector="pressedLvButton:" destination="8rJ-Kc-sve" eventType="touchDown" id="ixC-7V-e8A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g3H-lI-VTJ">
+                                <rect key="frame" x="357" y="811" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="Nivel 2"/>
+                                <connections>
+                                    <action selector="pressedLvButton:" destination="8rJ-Kc-sve" eventType="touchDown" id="T1T-SX-71a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -64,6 +91,9 @@ RXN0YWQFw61zdGljYXM
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <tabBarItem key="tabBarItem" title="Estadísticas" image="second" id="cPa-gy-q4n"/>
                     <connections>
+                        <outlet property="Level1Button" destination="d9T-gB-dls" id="DAI-lI-Sja"/>
+                        <outlet property="Level2Button" destination="g3H-lI-VTJ" id="bld-iw-3V9"/>
+                        <outlet property="Level3Button" destination="9u6-Vi-YAT" id="JM1-tT-jPY"/>
                         <outlet property="graphView" destination="rVI-ZV-mYI" id="Lge-ng-g4r"/>
                     </connections>
                 </viewController>

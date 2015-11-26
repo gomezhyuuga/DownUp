@@ -12,15 +12,27 @@ import Charts
 class StatisticsViewController: UIViewController {
 
     @IBOutlet weak var graphView: BarChartView!
+    @IBOutlet weak var Level1Button: UIButton!
+    @IBOutlet weak var Level2Button: UIButton!
+    @IBOutlet weak var Level3Button: UIButton!
     
     var daysOfTheWeek: [String] = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"];
     var times: [Double] = [];
+    var selectedLevel: Int = 0;
     
     override func viewDidLoad() {
         super.viewDidLoad();
         // Do any additional setup after loading the view, typically from a nib.
-        times = readData(2);
+        
+        setTags();
+        times = readData(selectedLevel);
         setupChart(daysOfTheWeek, values: times);
+    }
+    
+    private func setTags() {
+        Level1Button.tag = 1;
+        Level2Button.tag = 2;
+        Level3Button.tag = 3;
     }
     
     private func setupChart(weekDays: [String], values: [Double]) {
@@ -47,6 +59,23 @@ class StatisticsViewController: UIViewController {
         return levelTimes;
     }
 
+    @IBAction func pressedLvButton(sender: UIButton) {
+        switch (sender.tag) {
+            case 1:
+                self.selectedLevel = 1;
+                break;
+            case 2:
+                self.selectedLevel = 2;
+                break;
+            case 3:
+                self.selectedLevel = 3;
+                break;
+            default:
+                break;
+        }
+        print("Picked Level was \(selectedLevel)");
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning();
         // Dispose of any resources that can be recreated.
