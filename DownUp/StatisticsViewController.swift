@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  StatisticsViewController.swift
 //  DownUp
 //
 //  Created by Fernando Gómez Herrera on 9/13/15.
@@ -11,13 +11,20 @@ import Charts
 
 class StatisticsViewController: UIViewController {
 
+    @IBOutlet weak var barChartView: BarChartView!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad();
         // Do any additional setup after loading the view, typically from a nib.
+        setupChart();
+    }
+    
+    private func setupChart() {
+        barChartView.noDataText = "You have to load historical data.";
     }
 
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+        super.didReceiveMemoryWarning();
         // Dispose of any resources that can be recreated.
     }
 }
