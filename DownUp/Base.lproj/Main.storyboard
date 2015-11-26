@@ -64,7 +64,7 @@ RXN0YWQFw61zdGljYXM
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <tabBarItem key="tabBarItem" title="Estadísticas" image="second" id="cPa-gy-q4n"/>
                     <connections>
-                        <outlet property="barChartView" destination="rVI-ZV-mYI" id="Hn9-4A-Zua"/>
+                        <outlet property="graphView" destination="rVI-ZV-mYI" id="Lge-ng-g4r"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>

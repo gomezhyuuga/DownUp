@@ -39,7 +39,7 @@ class StatisticsViewController: UIViewController {
         
         let graphData = BarChartData(xVals: weekDays, dataSet: dataSet);
         graphView.data = graphData;
-        //graphView.descriptionText = "Minutos";
+        graphView.descriptionText = "";
     }
     
     private func readData(level: Int) -> [Double] {
