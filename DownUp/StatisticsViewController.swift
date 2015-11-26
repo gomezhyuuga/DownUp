@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Charts
 
 class StatisticsViewController: UIViewController {
 
@@ -19,7 +20,5 @@ class StatisticsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
