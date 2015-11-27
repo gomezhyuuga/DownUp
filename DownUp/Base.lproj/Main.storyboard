@@ -711,11 +711,39 @@ RXN0YWQFw61zdGljYXM
                         <outlet property="lblMoneyLeft" destination="YLr-zx-WXx" id="tc5-ij-CG0"/>
                         <outlet property="lblPrice" destination="una-SD-tgj" id="6yK-fx-Xcd"/>
                         <outlet property="moneyBagView" destination="QXQ-fo-BgR" id="s43-dQ-s4j"/>
+                        <segue destination="37i-6i-dcn" kind="modal" identifier="alertDONE" modalTransitionStyle="coverVertical" id="Wbg-Su-kEC"/>
+                        <segue destination="IQZ-j4-65L" kind="modal" identifier="alertFAIL" modalTransitionStyle="coverVertical" id="iOk-zQ-700"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yTV-7L-1Lp" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4797" y="-547"/>
+        </scene>
+        <!--Alert View Controller-->
+        <scene sceneID="l6n-S6-3pe">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ab7-Ph-PVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="37i-6i-dcn" customClass="AlertViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="LJy-sW-bjh">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Boh-j1-SvD">
+                                <rect key="frame" x="31" y="164" width="707" height="695"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" image="felicidades.png"/>
+                                <connections>
+                                    <action selector="dismissAlert:" destination="37i-6i-dcn" eventType="touchUpInside" id="dEh-Pl-mlK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.31053909359999998" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="6039" y="317"/>
         </scene>
         <!--Juego-->
         <scene sceneID="yhd-i3-rMK">
@@ -736,6 +764,32 @@ RXN0YWQFw61zdGljYXM
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VTW-uU-baY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="960" y="-546.13333333333333"/>
+        </scene>
+        <!--Alert View Controller-->
+        <scene sceneID="blP-Ll-II7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CuA-tZ-oOL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="IQZ-j4-65L" customClass="AlertViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="rMi-kp-bR3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6cG-gO-OwG">
+                                <rect key="frame" x="31" y="164" width="707" height="695"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" image="intentaloDenuevo.png"/>
+                                <connections>
+                                    <action selector="dismissAlert:" destination="IQZ-j4-65L" eventType="touchUpInside" id="Viv-nU-eNA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.31053909359999998" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5959" y="-651"/>
         </scene>
     </scenes>
     <resources>
@@ -767,8 +821,10 @@ RXN0YWQFw61zdGljYXM
         <image name="botonSalir.png" width="302" height="156"/>
         <image name="chocolate.png" width="256" height="256"/>
         <image name="dulce.png" width="580" height="898"/>
+        <image name="felicidades.png" width="707" height="695"/>
         <image name="first" width="30" height="30"/>
         <image name="igual.png" width="192" height="177"/>
+        <image name="intentaloDenuevo.png" width="730" height="446"/>
         <image name="ipad.png" width="256" height="256"/>
         <image name="lapiz.png" width="256" height="256"/>
         <image name="leche.png" width="698" height="1300"/>

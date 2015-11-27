@@ -76,10 +76,10 @@ class GameViewController: UIViewController {
             selected[quantity] = selected[quantity]! + 1
             updateUI()
         } else {
-            alert("Te pasaste de dinero")
+            alert("FAIL")
         }
         if (game.gameHasFinished()) {
-            alert("¡Felicidades! Manejas muy bien el dinero!!!")
+            alert("DONE")
         }
     }
     
@@ -94,7 +94,11 @@ class GameViewController: UIViewController {
     }
     
     private func alert(msg: String) {
-        UIAlertView(title: "Mensaje", message: msg, delegate: nil, cancelButtonTitle: "OK").show()
+        if msg == "FAIL" {
+            performSegueWithIdentifier("alertFAIL", sender: self)
+        } else {
+            performSegueWithIdentifier("alertDONE", sender: self)
+        }
     }
     
     func moneyDragged(gesture: UIPanGestureRecognizer) {
