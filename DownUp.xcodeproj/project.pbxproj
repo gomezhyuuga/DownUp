@@ -13,6 +13,8 @@
 		182F2BED1BA67AA200F788E5 /* selection.png in Resources */ = {isa = PBXBuildFile; fileRef = 182F2BE81BA67AA200F788E5 /* selection.png */; };
 		182F2BEE1BA67AA200F788E5 /* statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 182F2BE91BA67AA200F788E5 /* statistics.png */; };
 		182F2BF01BA67B8500F788E5 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 182F2BEF1BA67B8500F788E5 /* cat.png */; };
+		186E931C1C0870AD002D81D9 /* leche.png in Resources */ = {isa = PBXBuildFile; fileRef = 186E931B1C0870AD002D81D9 /* leche.png */; };
+		186E93211C087134002D81D9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E93201C087134002D81D9 /* Utils.swift */; };
 		18DA83D21C07DCAB000FBC7D /* Anna-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18DA83D11C07DCAB000FBC7D /* Anna-Roman.otf */; };
 		18DE69A91BA6584600FC3B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE69A81BA6584600FC3B71 /* AppDelegate.swift */; };
 		18DE69AB1BA6584600FC3B71 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE69AA1BA6584600FC3B71 /* GameViewController.swift */; };
@@ -70,7 +72,6 @@
 		E5B51D9F1BD5424F008182EB /* dulce.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D961BD5424F008182EB /* dulce.png */; };
 		E5B51DA01BD5424F008182EB /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D971BD5424F008182EB /* ipad.png */; };
 		E5B51DA11BD5424F008182EB /* lapiz.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D981BD5424F008182EB /* lapiz.png */; };
-		E5B51DA21BD5424F008182EB /* leche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D991BD5424F008182EB /* leche.jpg */; };
 		E5B51DA31BD5424F008182EB /* libro.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D9A1BD5424F008182EB /* libro.png */; };
 		E5B51DA41BD5424F008182EB /* manzana.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D9B1BD5424F008182EB /* manzana.png */; };
 		E5B51DA51BD5424F008182EB /* osito.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D9C1BD5424F008182EB /* osito.png */; };
@@ -116,6 +117,8 @@
 		182F2BE81BA67AA200F788E5 /* selection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selection.png; sourceTree = "<group>"; };
 		182F2BE91BA67AA200F788E5 /* statistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statistics.png; sourceTree = "<group>"; };
 		182F2BEF1BA67B8500F788E5 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		186E931B1C0870AD002D81D9 /* leche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leche.png; sourceTree = "<group>"; };
+		186E93201C087134002D81D9 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		18DA83D11C07DCAB000FBC7D /* Anna-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anna-Roman.otf"; sourceTree = "<group>"; };
 		18DE69A31BA6584500FC3B71 /* DownUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DE69A71BA6584600FC3B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -177,7 +180,6 @@
 		E5B51D961BD5424F008182EB /* dulce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dulce.png; sourceTree = "<group>"; };
 		E5B51D971BD5424F008182EB /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
 		E5B51D981BD5424F008182EB /* lapiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lapiz.png; sourceTree = "<group>"; };
-		E5B51D991BD5424F008182EB /* leche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leche.jpg; sourceTree = "<group>"; };
 		E5B51D9A1BD5424F008182EB /* libro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = libro.png; sourceTree = "<group>"; };
 		E5B51D9B1BD5424F008182EB /* manzana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manzana.png; sourceTree = "<group>"; };
 		E5B51D9C1BD5424F008182EB /* osito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = osito.png; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				E525AA241C07FDF400191A5E /* LevelsViewController.swift */,
 				18DE69CA1BA65A8500FC3B71 /* AboutViewController.swift */,
 				18DE69AE1BA6584600FC3B71 /* Main.storyboard */,
+				186E93201C087134002D81D9 /* Utils.swift */,
 				18FB6C7E1BFF6E45000FA72F /* ViewController.swift */,
 				18DE69B11BA6584600FC3B71 /* Images.xcassets */,
 				18DE69B31BA6584600FC3B71 /* LaunchScreen.xib */,
@@ -327,7 +330,7 @@
 				E5B51D971BD5424F008182EB /* ipad.png */,
 				E525AA171C07F64F00191A5E /* globito.png */,
 				E5B51D981BD5424F008182EB /* lapiz.png */,
-				E5B51D991BD5424F008182EB /* leche.jpg */,
+				186E931B1C0870AD002D81D9 /* leche.png */,
 				E5B51D9A1BD5424F008182EB /* libro.png */,
 				E5B51D9B1BD5424F008182EB /* manzana.png */,
 				E5B51D9C1BD5424F008182EB /* osito.png */,
@@ -548,9 +551,9 @@
 				E51632141C07E4460049A665 /* 1peso.png in Resources */,
 				E51632181C07E4460049A665 /* 20pesos.png in Resources */,
 				182F2BEB1BA67AA200F788E5 /* buying.png in Resources */,
+				186E931C1C0870AD002D81D9 /* leche.png in Resources */,
 				E516320C1C07E2660049A665 /* botonSalir.png in Resources */,
 				18DE69B51BA6584600FC3B71 /* LaunchScreen.xib in Resources */,
-				E5B51DA21BD5424F008182EB /* leche.jpg in Resources */,
 				E516320B1C07E2660049A665 /* botonRegresar.png in Resources */,
 				E5423C041C08183200AC2635 /* igual.png in Resources */,
 				18DE69B21BA6584600FC3B71 /* Images.xcassets in Resources */,
@@ -590,6 +593,7 @@
 				18FF67611BCC5B880090110F /* Bill.swift in Sources */,
 				18FF67691BCC60010090110F /* Item.swift in Sources */,
 				18DE69A91BA6584600FC3B71 /* AppDelegate.swift in Sources */,
+				186E93211C087134002D81D9 /* Utils.swift in Sources */,
 				18DE69CB1BA65A8500FC3B71 /* AboutViewController.swift in Sources */,
 				18FB6C7F1BFF6E45000FA72F /* ViewController.swift in Sources */,
 				18DE69AB1BA6584600FC3B71 /* GameViewController.swift in Sources */,

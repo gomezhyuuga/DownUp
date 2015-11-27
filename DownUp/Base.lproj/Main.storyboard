@@ -87,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="1999" y="-547"/>
         </scene>
-        <!--View Controller-->
+        <!--Levels View Controller-->
         <scene sceneID="vij-Ot-1Y9">
             <objects>
-                <viewController id="fEh-g1-Rac" sceneMemberID="viewController">
+                <viewController id="fEh-g1-Rac" customClass="LevelsViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="la0-xQ-Iy5">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -109,7 +109,7 @@
                                     <segue destination="Icf-Bg-UCT" kind="push" id="i38-fl-dJL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="j0B-y7-zjT">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="j0B-y7-zjT">
                                 <rect key="frame" x="260" y="483" width="249" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
@@ -118,7 +118,7 @@
                                     <segue destination="tNb-Wj-eAg" kind="push" id="lqI-J7-MUs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bij-Uj-jwS">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bij-Uj-jwS">
                                 <rect key="frame" x="260" y="699" width="249" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
@@ -423,65 +423,95 @@ RXN0YWQFw61zdGljYXM
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="x88-2I-M0E">
+                            <button opaque="NO" tag="7" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="x88-2I-M0E">
                                 <rect key="frame" x="452" y="292" width="112" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="chocolate.png"/>
+                                <connections>
+                                    <segue destination="Wvq-nw-KOH" kind="push" id="jsI-8I-pRT"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="To0-LI-Fxb">
+                            <button opaque="NO" tag="8" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="To0-LI-Fxb">
                                 <rect key="frame" x="540" y="379" width="102" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="dulce.png"/>
+                                <connections>
+                                    <segue destination="Wvq-nw-KOH" kind="push" id="rjE-aB-QPm"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xP8-0e-hKY">
+                            <button opaque="NO" tag="10" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xP8-0e-hKY">
                                 <rect key="frame" x="650" y="343" width="94" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="leche.jpg"/>
+                                <connections>
+                                    <segue destination="Wvq-nw-KOH" kind="push" id="9Rs-jL-HhF"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0bc-1N-EG8">
+                            <button opaque="NO" tag="9" contentMode="scaleAspectFit" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0bc-1N-EG8">
                                 <rect key="frame" x="606" y="560" width="130" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" image="libro.png"/>
+                                <connections>
+                                    <segue destination="Wvq-nw-KOH" kind="push" id="jvk-JD-3FL"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OoG-Xh-XO5">
+                            <button opaque="NO" tag="6" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OoG-Xh-XO5">
                                 <rect key="frame" x="433" y="410" width="88" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="manzana.png"/>
+                                <connections>
+                                    <segue destination="Wvq-nw-KOH" kind="push" id="GvK-HN-tbZ"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QBO-b3-jAg">
+                            <button opaque="NO" tag="1" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QBO-b3-jAg">
                                 <rect key="frame" x="27" y="515" width="171" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="osito.png"/>
+                                <connections>
+                                    <segue destination="Wvq-nw-KOH" kind="push" id="YAR-Kr-4CF"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kxI-4i-izm">
+                            <button opaque="NO" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kxI-4i-izm">
                                 <rect key="frame" x="338" y="417" width="78" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="pan.png"/>
+                                <connections>
+                                    <segue destination="Wvq-nw-KOH" kind="push" id="YFt-Br-aDb"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qz2-W7-wWc">
+                            <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qz2-W7-wWc">
                                 <rect key="frame" x="230" y="561" width="118" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="pelota.png"/>
+                                <connections>
+                                    <segue destination="Wvq-nw-KOH" kind="push" id="42r-HK-sQf"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kpZ-Dl-ROV">
+                            <button opaque="NO" tag="3" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kpZ-Dl-ROV">
                                 <rect key="frame" x="406" y="537" width="169" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="ipad.png"/>
+                                <connections>
+                                    <segue destination="Wvq-nw-KOH" kind="push" id="6qc-ET-wAO"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9Lr-Vo-wo2">
+                            <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9Lr-Vo-wo2">
                                 <rect key="frame" x="304" y="301" width="92" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="lapiz.png"/>
+                                <connections>
+                                    <segue destination="Wvq-nw-KOH" kind="push" id="hyF-BZ-E8i"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -675,7 +705,9 @@ RXN0YWQFw61zdGljYXM
                     <navigationItem key="navigationItem" id="GN1-dQ-Tdd"/>
                     <connections>
                         <outlet property="dropZoneView" destination="pLh-IK-LOm" id="Xw7-Pr-na5"/>
+                        <outlet property="lblAcum" destination="Dap-jB-hnK" id="cnc-Pc-yeZ"/>
                         <outlet property="lblItemName" destination="9TJ-Uh-WHC" id="03Q-af-bQW"/>
+                        <outlet property="lblMoneyLeft" destination="YLr-zx-WXx" id="tc5-ij-CG0"/>
                         <outlet property="lblPrice" destination="una-SD-tgj" id="6yK-fx-Xcd"/>
                         <outlet property="moneyBagView" destination="QXQ-fo-BgR" id="s43-dQ-s4j"/>
                     </connections>
@@ -753,6 +785,7 @@ RXN0YWQFw61zdGljYXM
         <image name="signomas.png" width="166" height="157"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lqI-J7-MUs"/>
+        <segue reference="MaS-PZ-g5R"/>
+        <segue reference="jvk-JD-3FL"/>
     </inferredMetricsTieBreakers>
 </document>

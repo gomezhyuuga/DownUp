@@ -11,7 +11,8 @@ import UIKit
 class GameViewController: UIViewController {
     
     var game = GameManager()
-    var item: Item = Item(name: "Osito", img: "osito.png")
+    static var item: Item?
+    static var level: Level?
     
     var selected = [Int:Int]()
     
@@ -29,7 +30,7 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        game.startGame(item, level: Level.TWO)
+        game.startGame(GameViewController.item!, level: GameViewController.level!)
         setup()
     }
     override func didReceiveMemoryWarning() {
@@ -38,9 +39,9 @@ class GameViewController: UIViewController {
     }
     
     private func setup() {
-        let price = self.game.itemToBuy?.price
-        self.lblPrice.text = "$\(price!) pesos"
-        self.lblMoneyLeft.text = "$\(price!) pesos"
+        let price = self.game.itemToBuy!.price
+        self.lblPrice.text = "$\(price) pesos"
+        self.lblMoneyLeft.text = "$\(price) pesos"
         self.selected[1] = 0
         self.selected[2] = 0
         self.selected[5] = 0
