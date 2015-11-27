@@ -61,6 +61,8 @@
 		E5423C021C0813D700AC2635 /* FondoMain.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423C011C0813D700AC2635 /* FondoMain.png */; };
 		E5423C041C08183200AC2635 /* igual.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423C031C08183200AC2635 /* igual.png */; };
 		E5423C061C0818C300AC2635 /* signomas.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423C051C0818C300AC2635 /* signomas.png */; };
+		E5423C0B1C084A6C00AC2635 /* felicidades.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423C091C084A6C00AC2635 /* felicidades.png */; };
+		E5423C0C1C084A6C00AC2635 /* intentaloDenuevo.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423C0A1C084A6C00AC2635 /* intentaloDenuevo.png */; };
 		E5B51D951BD54214008182EB /* chocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D941BD54214008182EB /* chocolate.png */; };
 		E5B51D9F1BD5424F008182EB /* dulce.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D961BD5424F008182EB /* dulce.png */; };
 		E5B51DA01BD5424F008182EB /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D971BD5424F008182EB /* ipad.png */; };
@@ -163,6 +165,8 @@
 		E5423C011C0813D700AC2635 /* FondoMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FondoMain.png; sourceTree = "<group>"; };
 		E5423C031C08183200AC2635 /* igual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = igual.png; sourceTree = "<group>"; };
 		E5423C051C0818C300AC2635 /* signomas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signomas.png; sourceTree = "<group>"; };
+		E5423C091C084A6C00AC2635 /* felicidades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = felicidades.png; sourceTree = "<group>"; };
+		E5423C0A1C084A6C00AC2635 /* intentaloDenuevo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intentaloDenuevo.png; sourceTree = "<group>"; };
 		E5B51D941BD54214008182EB /* chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chocolate.png; sourceTree = "<group>"; };
 		E5B51D961BD5424F008182EB /* dulce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dulce.png; sourceTree = "<group>"; };
 		E5B51D971BD5424F008182EB /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
@@ -275,6 +279,7 @@
 		18DE69CC1BA65E3F00FC3B71 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				E5423C081C084A4300AC2635 /* Messages */,
 				E516320D1C07E41A0049A665 /* monedasybilletes */,
 				E51631F51C07E2310049A665 /* botones */,
 				18FF676A1BCC60370090110F /* objects */,
@@ -364,6 +369,15 @@
 				E51632131C07E4460049A665 /* 100pesos.png */,
 			);
 			name = monedasybilletes;
+			sourceTree = "<group>";
+		};
+		E5423C081C084A4300AC2635 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				E5423C091C084A6C00AC2635 /* felicidades.png */,
+				E5423C0A1C084A6C00AC2635 /* intentaloDenuevo.png */,
+			);
+			name = Messages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,6 +523,7 @@
 				E51632031C07E2660049A665 /* bntRegresar2.png in Resources */,
 				E51632061C07E2660049A665 /* botonEsta.png in Resources */,
 				E51632151C07E4460049A665 /* 2pesos.png in Resources */,
+				E5423C0C1C084A6C00AC2635 /* intentaloDenuevo.png in Resources */,
 				E516321D1C07E59C0049A665 /* 50peso.png in Resources */,
 				E51632141C07E4460049A665 /* 1peso.png in Resources */,
 				E51632181C07E4460049A665 /* 20pesos.png in Resources */,
@@ -520,6 +535,7 @@
 				E5423C041C08183200AC2635 /* igual.png in Resources */,
 				18DE69B21BA6584600FC3B71 /* Images.xcassets in Resources */,
 				182F2BEC1BA67AA200F788E5 /* home.png in Resources */,
+				E5423C0B1C084A6C00AC2635 /* felicidades.png in Resources */,
 				E5B51DA11BD5424F008182EB /* lapiz.png in Resources */,
 				E525AA211C07FC0300191A5E /* AcercaDe.png in Resources */,
 				182F2BEA1BA67AA200F788E5 /* about.png in Resources */,
