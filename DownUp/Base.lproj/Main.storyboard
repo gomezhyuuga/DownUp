@@ -722,7 +722,6 @@ RXN0YWQFw61zdGljYXM
         <!--Alert View Controller-->
         <scene sceneID="l6n-S6-3pe">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ab7-Ph-PVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="37i-6i-dcn" customClass="AlertViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="LJy-sW-bjh">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
@@ -739,11 +738,12 @@ RXN0YWQFw61zdGljYXM
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.31053909359999998" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ab7-Ph-PVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6039" y="317"/>
+            <point key="canvasLocation" x="5959" y="487"/>
         </scene>
         <!--Juego-->
         <scene sceneID="yhd-i3-rMK">
@@ -768,7 +768,6 @@ RXN0YWQFw61zdGljYXM
         <!--Alert View Controller-->
         <scene sceneID="blP-Ll-II7">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CuA-tZ-oOL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="IQZ-j4-65L" customClass="AlertViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="rMi-kp-bR3">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
@@ -785,9 +784,10 @@ RXN0YWQFw61zdGljYXM
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.31053909359999998" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CuA-tZ-oOL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5959" y="-651"/>
         </scene>
