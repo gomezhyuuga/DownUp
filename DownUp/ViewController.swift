@@ -30,16 +30,13 @@ class ViewController: UIViewController {
             // Load random UIImage
             let button: UIButton = self.view.viewWithTag(i) as! UIButton
             let imageName = objects[i - 1].img
-            print(imageName)
             let image = UIImage(contentsOfFile: NSBundle.mainBundle().pathForResource(imageName, ofType: "png")!)
-            print(image)
             button.setImage(image, forState: UIControlState.Normal)
         }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("LEVEL: \(ViewController.level)")
     }
     
     override func didReceiveMemoryWarning() {
@@ -48,8 +45,8 @@ class ViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let object: UIButton = sender as! UIButton
-        let item = Item(name: "something", img: "osito.png")
+        let object = objects[sender!.tag - 1]
+        let item = Item(name: object.name, img: object.img)
         GameViewController.item = item
         GameViewController.level = ViewController.level
     }

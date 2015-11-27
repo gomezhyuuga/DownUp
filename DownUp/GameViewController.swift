@@ -26,6 +26,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var lblAcum: UILabel!
     @IBOutlet weak var moneyBagView: UIView!
     @IBOutlet weak var dropZoneView: UIView!
+    @IBOutlet weak var imgItem: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +40,9 @@ class GameViewController: UIViewController {
     }
     
     private func setup() {
+        let imagePath = NSBundle.mainBundle().pathForResource(self.game.itemToBuy!.img, ofType: "png")
+        self.imgItem.image = UIImage(contentsOfFile: imagePath!)
+        self.lblItemName.text = self.game.itemToBuy?.name
         let price = self.game.itemToBuy!.price
         self.lblPrice.text = "$\(price) pesos"
         self.lblMoneyLeft.text = "$\(price) pesos"

@@ -705,6 +705,7 @@ RXN0YWQFw61zdGljYXM
                     <navigationItem key="navigationItem" id="GN1-dQ-Tdd"/>
                     <connections>
                         <outlet property="dropZoneView" destination="pLh-IK-LOm" id="Xw7-Pr-na5"/>
+                        <outlet property="imgItem" destination="KoP-QW-br7" id="jes-Eq-yys"/>
                         <outlet property="lblAcum" destination="Dap-jB-hnK" id="cnc-Pc-yeZ"/>
                         <outlet property="lblItemName" destination="9TJ-Uh-WHC" id="03Q-af-bQW"/>
                         <outlet property="lblMoneyLeft" destination="YLr-zx-WXx" id="tc5-ij-CG0"/>
