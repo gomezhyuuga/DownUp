@@ -8,18 +8,22 @@
 
 import Foundation
 
+enum Level {
+    case ONE, TWO, THREE
+}
+
 class GameManager {
     var objects: [Item] = [
-        Item(name: "osito", img: "osito.png", price: 85),
-        Item(name: "manzana", img: "manzana.png", price: 8),
-        Item(name: "chocolate", img: "chocolate.png", price: 7),
-        Item(name: "pan", img: "pan.png", price: 1),
-        Item(name: "pelota", img: "pelota.png", price: 4),
-        Item(name: "leche", img: "leche.jpg", price: 5),
-        Item(name: "libro", img: "libro.png", price: 3),
-        Item(name: "ipad", img: "ipad.jpg", price: 70),
-        Item(name: "lapiz", img: "lapiz.png", price: 6),
-        Item(name: "dulce", img: "dulce.png", price: 4),
+        Item(name: "osito", img: "osito.png"),
+        Item(name: "manzana", img: "manzana.png"),
+        Item(name: "chocolate", img: "chocolate.png"),
+        Item(name: "pan", img: "pan.png"),
+        Item(name: "pelota", img: "pelota.png"),
+        Item(name: "leche", img: "leche.jpg"),
+        Item(name: "libro", img: "libro.png"),
+        Item(name: "ipad", img: "ipad.jpg"),
+        Item(name: "lapiz", img: "lapiz.png"),
+        Item(name: "dulce", img: "dulce.png"),
     ]
 
     var itemToBuy: Item?
@@ -32,16 +36,16 @@ class GameManager {
 		}
 	}
     
-    func selectItem(item: String) -> Item? {
+    func selectItem(item: Item) -> Item? {
         for i in objects {
-            if item == i.img {
+            if item.img == i.img {
                 return i
             }
         }
         return Optional<Item>()
     }
     
-    func startGame(itemToBuy: String) {
+    func startGame(itemToBuy: Item, level: Level) {
         self.itemToBuy = selectItem(itemToBuy)
     }
     

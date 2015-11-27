@@ -641,7 +641,7 @@ Producto</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9ha-qP-a9r">
-                                        <rect key="frame" x="141" y="241" width="186" height="94"/>
+                                        <rect key="frame" x="166" y="158" width="186" height="94"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="50"/>
@@ -651,7 +651,7 @@ Producto</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qBC-kX-qH3">
-                                        <rect key="frame" x="157" y="343" width="186" height="94"/>
+                                        <rect key="frame" x="166" y="260" width="186" height="94"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="100"/>
@@ -661,7 +661,7 @@ Producto</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PAq-Sm-IyA">
-                                        <rect key="frame" x="133" y="144" width="186" height="94"/>
+                                        <rect key="frame" x="166" y="56" width="186" height="94"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="20"/>
@@ -670,18 +670,8 @@ Producto</string>
                                             <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="Acv-eo-gNT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pkM-pH-vZL">
-                                        <rect key="frame" x="28" y="238" width="97" height="97"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <accessibility key="accessibilityConfiguration" identifier="10"/>
-                                        <state key="normal" backgroundImage="10.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="Dby-cB-5yf"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6He-1a-FF3">
-                                        <rect key="frame" x="28" y="372" width="97" height="97"/>
+                                        <rect key="frame" x="36" y="192" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="5"/>
@@ -691,7 +681,7 @@ Producto</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vc0-lA-hLq">
-                                        <rect key="frame" x="202" y="81" width="60" height="60"/>
+                                        <rect key="frame" x="46" y="124" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="2"/>
@@ -701,13 +691,23 @@ Producto</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rjE-Iw-etj">
-                                        <rect key="frame" x="8" y="56" width="60" height="60"/>
+                                        <rect key="frame" x="51" y="66" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="1"/>
                                         <state key="normal" backgroundImage="1.jpg"/>
                                         <connections>
                                             <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="enu-Ys-fg4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pkM-pH-vZL">
+                                        <rect key="frame" x="26" y="278" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <accessibility key="accessibilityConfiguration" identifier="10"/>
+                                        <state key="normal" backgroundImage="10.jpg"/>
+                                        <connections>
+                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="Dby-cB-5yf"/>
                                         </connections>
                                     </button>
                                 </subviews>

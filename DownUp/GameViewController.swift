@@ -11,7 +11,7 @@ import UIKit
 class GameViewController: UIViewController {
     
     var game = GameManager()
-    var item: Item = Item(name: "Osito", img: "osito.png", price: 33)
+    var item: Item = Item(name: "Osito", img: "osito.png")
     
     var selected: [Int] = [Int]()
     
@@ -80,7 +80,7 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        game.startGame(self.item.img)
+        game.startGame(item, level: Level.ONE)
         setup()
     }
     
