@@ -13,7 +13,7 @@ class GameViewController: UIViewController {
     var game = GameManager()
     var item: Item = Item(name: "Osito", img: "osito.png")
     
-    var selected: [Int] = [Int]()
+    var selected = [Int:Int]()
     
     var startPanPosition: CGPoint?
     var previousPanPosition: CGPoint?
@@ -26,77 +26,29 @@ class GameViewController: UIViewController {
     @IBOutlet weak var moneyBagView: UIView!
     @IBOutlet weak var dropZoneView: UIView!
     
-    @IBOutlet weak var lblQ1: UILabel!
-
-    @IBOutlet weak var lblQ10: UILabel!
-    @IBOutlet weak var lblQ5: UILabel!
-    @IBOutlet weak var lblQ2: UILabel!
-    @IBOutlet weak var lblQ20: UILabel!
-    @IBOutlet weak var lblQ50: UILabel!
-    @IBOutlet weak var lblQ100: UILabel!
-
-    @IBAction func pay(sender: UIButton) {
-        let quantity = sender.accessibilityIdentifier
-        print("quantity: \(quantity!)")
-        let q = Int(quantity!)!
-        let added = game.addQuantity(q)
-        if (added) {
-            updateUI()
-            selected[q] += 1
-            switch q {
-            case 1:
-                updateLBL(lblQ1, q: q)
-            case 2:
-                updateLBL(lblQ2, q: q)
-            case 5:
-                updateLBL(lblQ5, q: q)
-            case 10:
-                updateLBL(lblQ10, q: q)
-            case 20:
-                updateLBL(lblQ20, q: q)
-            case 50:
-                updateLBL(lblQ50, q: q)
-            case 100:
-                updateLBL(lblQ100, q: q)
-            default:
-                break;
-            }
-        } else {
-            alert("Te pasaste de dinero")
-        }
-        if (game.gameHasFinished()) {
-            alert("¡Felicidades! Manejas muy bien el dinero!!!")
-        }
-    }
-    
-    private func updateLBL(lbl: UILabel, q: Int) {
-        lbl.hidden = false
-        lbl.text = "\(selected[q])"
-    }
-    
-    private func updateUI() {
-        self.lblAcum.text = "LLEVAS $\(game.moneyAcum) PESOS"
-        self.lblMoneyLeft.text = "$\(game.moneyLeft()) PESOS"
-    }
-    
-    private func alert(msg: String) {
-        UIAlertView(title: "Mensaje", message: msg, delegate: nil, cancelButtonTitle: "OK").show()
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         game.startGame(item, level: Level.TWO)
         setup()
     }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
     
     private func setup() {
         let price = self.game.itemToBuy?.price
-        self.lblPrice.text = "$\(price!) PESOS"
-        self.lblMoneyLeft.text = "$\(price) PESOS"
-        self.selected = [Int]()
-        for _ in 1...110 {
-            selected.append(0)
-        }
+        self.lblPrice.text = "$\(price!) pesos"
+        self.lblMoneyLeft.text = "$\(price!) pesos"
+        self.selected[1] = 0
+        self.selected[2] = 0
+        self.selected[5] = 0
+        self.selected[10] = 0
+        self.selected[20] = 0
+        self.selected[50] = 0
+        self.selected[100] = 0
+
         
         // Add pan gesture to each button
         var buttons = [UIButton]()
@@ -112,7 +64,35 @@ class GameViewController: UIViewController {
             btn.addGestureRecognizer(gesture)
         }
     }
+
+    private func pay(quantity: Int) {
+        print("quantity: \(quantity)")
+        let added = game.addQuantity(quantity)
+        if (added) {
+            selected[quantity] = selected[quantity]! + 1
+            print(selected)
+            updateUI()
+        } else {
+            alert("Te pasaste de dinero")
+        }
+        if (game.gameHasFinished()) {
+            alert("¡Felicidades! Manejas muy bien el dinero!!!")
+        }
+    }
     
+    private func updateLBL(lbl: UILabel, q: Int) {
+        lbl.hidden = false
+        lbl.text = "\(selected[q])"
+    }
+    
+    private func updateUI() {
+        self.lblAcum.text = "$\(game.moneyAcum) pesos"
+        self.lblMoneyLeft.text = "$\(game.moneyLeft()) pesos"
+    }
+    
+    private func alert(msg: String) {
+        UIAlertView(title: "Mensaje", message: msg, delegate: nil, cancelButtonTitle: "OK").show()
+    }
     
     func moneyDragged(gesture: UIPanGestureRecognizer) {
         let pos = gesture.locationInView(self.moneyBagView)
@@ -128,7 +108,9 @@ class GameViewController: UIViewController {
         case UIGestureRecognizerState.Ended:
             // If drags to the DROP ZONE
             if draggedIntoDropZone(gesture) {
-                print("ADD Q")
+                // Check quantity dragged
+                let quantity = gesture.view!.tag
+                self.pay(quantity)
             }
             // Restart its original position
             frame.origin = self.startPanPosition!
@@ -140,11 +122,6 @@ class GameViewController: UIViewController {
     
     private func draggedIntoDropZone(gesture: UIPanGestureRecognizer) -> Bool {
         return CGRectContainsPoint(self.dropZoneView.bounds, gesture.locationInView(self.dropZoneView))
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }
 
