@@ -445,7 +445,7 @@ RXN0YWQFw61zdGljYXM
                                 <rect key="frame" x="650" y="343" width="94" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <state key="normal" title="Button" image="leche.jpg"/>
+                                <state key="normal" title="Button" image="leche.png"/>
                                 <connections>
                                     <segue destination="Wvq-nw-KOH" kind="push" id="9Rs-jL-HhF"/>
                                 </connections>
@@ -771,13 +771,13 @@ RXN0YWQFw61zdGljYXM
         <image name="igual.png" width="192" height="177"/>
         <image name="ipad.png" width="256" height="256"/>
         <image name="lapiz.png" width="256" height="256"/>
-        <image name="leche.jpg" width="698" height="1300"/>
+        <image name="leche.png" width="698" height="1300"/>
         <image name="libro.png" width="128" height="128"/>
         <image name="manzana.png" width="256" height="256"/>
         <image name="monedaspng.png" width="1029" height="325"/>
+        <image name="monito.png" width="533" height="714"/>
         <image name="nivel1.png" width="730" height="127"/>
         <image name="niveles.png" width="1029" height="183"/>
-        <image name="monito.png" width="533" height="714"/>
         <image name="osito.png" width="512" height="512"/>
         <image name="pan.png" width="256" height="256"/>
         <image name="pelota.png" width="256" height="256"/>
