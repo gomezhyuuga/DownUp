@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="UpL-YK-bdb">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
@@ -8,36 +8,133 @@
         <!--BIENVENIDO-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController title="BIENVENIDO" id="9pv-A4-QxB" customClass="ViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="BIENVENIDO" id="9pv-A4-QxB" customClass="MainMenuViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fNc-wh-VMg">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FondoMain.png" id="KXp-hg-g5X">
+                                <rect key="frame" x="0.0" y="67" width="768" height="957"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <state key="normal" backgroundImage="home.png"/>
-                                <connections>
-                                    <segue destination="tNb-Wj-eAg" kind="push" id="CUi-KC-xu3"/>
-                                </connections>
-                            </button>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="U52-ma-635">
+                                <rect key="frame" x="39" y="112" width="687" height="846"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Titulo.png" id="ewV-rl-q6s">
+                                        <rect key="frame" x="0.0" y="8" width="687" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aGx-IX-CIk">
+                                        <rect key="frame" x="196" y="386" width="264" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" image="botonEsta.png"/>
+                                        <connections>
+                                            <segue destination="8rJ-Kc-sve" kind="push" id="Ejj-md-08V"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="E5f-B6-Qg2">
+                                        <rect key="frame" x="198" y="211" width="264" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" image="botonJugar.png"/>
+                                        <connections>
+                                            <segue destination="fEh-g1-Rac" kind="push" id="gcf-3n-Bxd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="USp-zM-cTj">
+                                        <rect key="frame" x="241" y="559" width="178" height="104"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" image="botonSalir.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HQE-iJ-d7c">
+                                        <rect key="frame" x="595" y="759" width="82" height="79"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" image="botonAyuda.png"/>
+                                        <connections>
+                                            <segue destination="xaE-56-DKK" kind="push" id="xeX-LP-eek"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="monedaspng.png" id="YEN-jv-ldF">
+                                        <rect key="frame" x="0.0" y="646" width="687" height="164"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.64313725490196083" green="0.80000000000000004" blue="0.23921568627450981" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="fhk-1D-Z75"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1999.3600000000001" y="-546.13333333333333"/>
+            <point key="canvasLocation" x="1999" y="-547"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vij-Ot-1Y9">
+            <objects>
+                <viewController id="fEh-g1-Rac" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="la0-xQ-Iy5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="niveles.png" id="cXV-Z6-Pcw">
+                                <rect key="frame" x="20" y="90" width="560" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iyH-VV-ETh">
+                                <rect key="frame" x="260" y="272" width="249" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" image="botonN1.png"/>
+                                <connections>
+                                    <segue destination="Icf-Bg-UCT" kind="push" id="i38-fl-dJL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="j0B-y7-zjT">
+                                <rect key="frame" x="260" y="483" width="249" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" image="botonN2.png"/>
+                                <connections>
+                                    <segue destination="tNb-Wj-eAg" kind="push" id="lqI-J7-MUs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bij-Uj-jwS">
+                                <rect key="frame" x="260" y="699" width="249" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" image="botonN3.png"/>
+                                <connections>
+                                    <segue destination="tNb-Wj-eAg" kind="push" id="MaS-PZ-g5R"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HqT-UD-gLO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0mT-An-c4d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2922" y="-547"/>
         </scene>
         <!--Estadísticas-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="StatisticsViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pF4-iP-cmE">
@@ -90,6 +187,7 @@ RXN0YWQFw61zdGljYXM
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <tabBarItem key="tabBarItem" title="Estadísticas" image="second" id="cPa-gy-q4n"/>
+                    <navigationItem key="navigationItem" id="sFf-DT-K6L"/>
                     <connections>
                         <outlet property="Level1Button" destination="d9T-gB-dls" id="DAI-lI-Sja"/>
                         <outlet property="Level2Button" destination="g3H-lI-VTJ" id="bld-iw-3V9"/>
@@ -99,18 +197,18 @@ RXN0YWQFw61zdGljYXM
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="960" y="614"/>
+            <point key="canvasLocation" x="1502" y="630"/>
         </scene>
-        <!--Acerca de-->
+        <!--About View Controller-->
         <scene sceneID="ThD-PR-H23">
             <objects>
-                <viewController id="xaE-56-DKK" sceneMemberID="viewController">
+                <viewController id="xaE-56-DKK" customClass="AboutViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="918-NC-s3P">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about.png" id="wj0-cX-kMw">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AcercaDe.png" id="7nc-r9-pz0">
+                                <rect key="frame" x="20" y="99" width="728" height="775"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
@@ -118,33 +216,28 @@ RXN0YWQFw61zdGljYXM
                         <animations/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Acerca de" id="ECY-aN-AXv"/>
+                    <navigationItem key="navigationItem" id="6Lv-K8-Luk"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mcp-rT-Kl4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="960" y="1873.9200000000001"/>
+            <point key="canvasLocation" x="2518" y="630"/>
         </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="yl2-sM-qoP">
+        <!--View Controller-->
+        <scene sceneID="B5t-xV-TRw">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
-                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                <viewController id="Icf-Bg-UCT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9cZ-Pw-tDH">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="UpL-YK-bdb" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="xaE-56-DKK" kind="relationship" relationship="viewControllers" id="oEI-g1-1io"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fq7-X7-WKc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5eX-ms-2SN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="3866" y="-1689"/>
         </scene>
         <!--Seleccionar objeto-->
         <scene sceneID="eL3-Hz-Cfg">
@@ -264,7 +357,7 @@ RXN0YWQFw61zdGljYXM
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mkq-rT-UNS" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2866" y="-547"/>
+            <point key="canvasLocation" x="3866" y="-547"/>
         </scene>
         <!--PAGAR-->
         <scene sceneID="TWe-lO-b4q">
@@ -491,7 +584,7 @@ RXN0YWQFw61zdGljYXM
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yTV-7L-1Lp" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3725" y="-547"/>
+            <point key="canvasLocation" x="4797" y="-547"/>
         </scene>
         <!--Juego-->
         <scene sceneID="yhd-i3-rMK">
@@ -522,20 +615,33 @@ RXN0YWQFw61zdGljYXM
         <image name="20.jpg" width="316" height="160"/>
         <image name="5.jpg" width="272" height="268"/>
         <image name="50.jpg" width="2000" height="1058"/>
-        <image name="about.png" width="768" height="1024"/>
+        <image name="AcercaDe.png" width="1131" height="1139"/>
+        <image name="FondoMain.png" width="1125" height="1501"/>
+        <image name="Titulo.png" width="1029" height="152"/>
+        <image name="botonAyuda.png" width="175" height="167"/>
+        <image name="botonEsta.png" width="474" height="203"/>
+        <image name="botonJugar.png" width="474" height="213"/>
+        <image name="botonN1.png" width="331" height="210"/>
+        <image name="botonN2.png" width="331" height="217"/>
+        <image name="botonN3.png" width="331" height="211"/>
+        <image name="botonSalir.png" width="302" height="156"/>
         <image name="chocolate.png" width="256" height="256"/>
         <image name="dulce.png" width="580" height="898"/>
         <image name="first" width="30" height="30"/>
-        <image name="home.png" width="768" height="1024"/>
         <image name="ipad.png" width="256" height="256"/>
         <image name="lapiz.png" width="256" height="256"/>
         <image name="leche.jpg" width="698" height="1300"/>
         <image name="libro.png" width="128" height="128"/>
         <image name="manzana.png" width="256" height="256"/>
+        <image name="monedaspng.png" width="1029" height="325"/>
+        <image name="niveles.png" width="1029" height="183"/>
         <image name="osito.png" width="512" height="512"/>
         <image name="pan.png" width="256" height="256"/>
         <image name="pelota.png" width="256" height="256"/>
         <image name="second" width="30" height="30"/>
         <image name="selection.png" width="768" height="1024"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="lqI-J7-MUs"/>
+    </inferredMetricsTieBreakers>
 </document>

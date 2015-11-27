@@ -58,6 +58,9 @@
 		E525AA231C07FDCE00191A5E /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E525AA221C07FDCE00191A5E /* MainMenuViewController.swift */; };
 		E525AA251C07FDF400191A5E /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E525AA241C07FDF400191A5E /* LevelsViewController.swift */; };
 		E5423BF71C080A5D00AC2635 /* Titulo.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423BF61C080A5D00AC2635 /* Titulo.png */; };
+		E5423C021C0813D700AC2635 /* FondoMain.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423C011C0813D700AC2635 /* FondoMain.png */; };
+		E5423C041C08183200AC2635 /* igual.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423C031C08183200AC2635 /* igual.png */; };
+		E5423C061C0818C300AC2635 /* signomas.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423C051C0818C300AC2635 /* signomas.png */; };
 		E5B51D951BD54214008182EB /* chocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D941BD54214008182EB /* chocolate.png */; };
 		E5B51D9F1BD5424F008182EB /* dulce.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D961BD5424F008182EB /* dulce.png */; };
 		E5B51DA01BD5424F008182EB /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D971BD5424F008182EB /* ipad.png */; };
@@ -157,6 +160,9 @@
 		E525AA221C07FDCE00191A5E /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		E525AA241C07FDF400191A5E /* LevelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
 		E5423BF61C080A5D00AC2635 /* Titulo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Titulo.png; sourceTree = "<group>"; };
+		E5423C011C0813D700AC2635 /* FondoMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FondoMain.png; sourceTree = "<group>"; };
+		E5423C031C08183200AC2635 /* igual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = igual.png; sourceTree = "<group>"; };
+		E5423C051C0818C300AC2635 /* signomas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signomas.png; sourceTree = "<group>"; };
 		E5B51D941BD54214008182EB /* chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chocolate.png; sourceTree = "<group>"; };
 		E5B51D961BD5424F008182EB /* dulce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dulce.png; sourceTree = "<group>"; };
 		E5B51D971BD5424F008182EB /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
@@ -326,11 +332,14 @@
 			isa = PBXGroup;
 			children = (
 				E5423BF61C080A5D00AC2635 /* Titulo.png */,
+				E5423C011C0813D700AC2635 /* FondoMain.png */,
 				E51631F91C07E2660049A665 /* bntRegresar2.png */,
 				E51631FA1C07E2660049A665 /* bntRegresar3.png */,
 				E51631FB1C07E2660049A665 /* botonAyuda.png */,
 				E525AA201C07FC0300191A5E /* AcercaDe.png */,
+				E5423C051C0818C300AC2635 /* signomas.png */,
 				E51631FC1C07E2660049A665 /* botonEsta.png */,
+				E5423C031C08183200AC2635 /* igual.png */,
 				E51631FD1C07E2660049A665 /* botonJugar.png */,
 				E525AA1C1C07F96C00191A5E /* monedaspng.png */,
 				E525AA1D1C07F96C00191A5E /* niveles.png */,
@@ -477,6 +486,7 @@
 				E5B51DA41BD5424F008182EB /* manzana.png in Resources */,
 				E51632161C07E4460049A665 /* 5pesos.png in Resources */,
 				E5B51DA61BD5424F008182EB /* pan.png in Resources */,
+				E5423C061C0818C300AC2635 /* signomas.png in Resources */,
 				E5B51D951BD54214008182EB /* chocolate.png in Resources */,
 				E5B51DA31BD5424F008182EB /* libro.png in Resources */,
 				E51632191C07E4460049A665 /* 100pesos.png in Resources */,
@@ -488,6 +498,7 @@
 				E516321B1C07E45F0049A665 /* monito.png in Resources */,
 				E516320A1C07E2660049A665 /* botonN3.png in Resources */,
 				E5B51D9F1BD5424F008182EB /* dulce.png in Resources */,
+				E5423C021C0813D700AC2635 /* FondoMain.png in Resources */,
 				182F2BED1BA67AA200F788E5 /* selection.png in Resources */,
 				E51632051C07E2660049A665 /* botonAyuda.png in Resources */,
 				18DE69DC1BA6639900FC3B71 /* 10.jpg in Resources */,
@@ -506,6 +517,7 @@
 				18DE69B51BA6584600FC3B71 /* LaunchScreen.xib in Resources */,
 				E5B51DA21BD5424F008182EB /* leche.jpg in Resources */,
 				E516320B1C07E2660049A665 /* botonRegresar.png in Resources */,
+				E5423C041C08183200AC2635 /* igual.png in Resources */,
 				18DE69B21BA6584600FC3B71 /* Images.xcassets in Resources */,
 				182F2BEC1BA67AA200F788E5 /* home.png in Resources */,
 				E5B51DA11BD5424F008182EB /* lapiz.png in Resources */,
