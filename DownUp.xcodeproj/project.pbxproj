@@ -77,6 +77,13 @@
 		E5B51DA51BD5424F008182EB /* osito.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D9C1BD5424F008182EB /* osito.png */; };
 		E5B51DA61BD5424F008182EB /* pan.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D9D1BD5424F008182EB /* pan.png */; };
 		E5B51DA71BD5424F008182EB /* pelota.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D9E1BD5424F008182EB /* pelota.png */; };
+		E5CA3BF71C0912DB00C02B1F /* n1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3BF11C0912DB00C02B1F /* n1.png */; };
+		E5CA3BF81C0912DB00C02B1F /* n2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3BF21C0912DB00C02B1F /* n2.png */; };
+		E5CA3BF91C0912DB00C02B1F /* n5.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3BF31C0912DB00C02B1F /* n5.png */; };
+		E5CA3BFA1C0912DB00C02B1F /* n20.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3BF41C0912DB00C02B1F /* n20.png */; };
+		E5CA3BFB1C0912DB00C02B1F /* n50.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3BF51C0912DB00C02B1F /* n50.png */; };
+		E5CA3BFC1C0912DB00C02B1F /* n100.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3BF61C0912DB00C02B1F /* n100.png */; };
+		E5CA3C011C09141E00C02B1F /* n10.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3C001C09141E00C02B1F /* n10.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +192,13 @@
 		E5B51D9C1BD5424F008182EB /* osito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = osito.png; sourceTree = "<group>"; };
 		E5B51D9D1BD5424F008182EB /* pan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pan.png; sourceTree = "<group>"; };
 		E5B51D9E1BD5424F008182EB /* pelota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pelota.png; sourceTree = "<group>"; };
+		E5CA3BF11C0912DB00C02B1F /* n1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n1.png; sourceTree = "<group>"; };
+		E5CA3BF21C0912DB00C02B1F /* n2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n2.png; sourceTree = "<group>"; };
+		E5CA3BF31C0912DB00C02B1F /* n5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n5.png; sourceTree = "<group>"; };
+		E5CA3BF41C0912DB00C02B1F /* n20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n20.png; sourceTree = "<group>"; };
+		E5CA3BF51C0912DB00C02B1F /* n50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n50.png; sourceTree = "<group>"; };
+		E5CA3BF61C0912DB00C02B1F /* n100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n100.png; sourceTree = "<group>"; };
+		E5CA3C001C09141E00C02B1F /* n10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n10.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,7 +368,14 @@
 		E51631F51C07E2310049A665 /* botones */ = {
 			isa = PBXGroup;
 			children = (
+				E5CA3C001C09141E00C02B1F /* n10.png */,
 				E5423C0F1C0873D100AC2635 /* nivel1.png */,
+				E5CA3BF11C0912DB00C02B1F /* n1.png */,
+				E5CA3BF21C0912DB00C02B1F /* n2.png */,
+				E5CA3BF31C0912DB00C02B1F /* n5.png */,
+				E5CA3BF41C0912DB00C02B1F /* n20.png */,
+				E5CA3BF51C0912DB00C02B1F /* n50.png */,
+				E5CA3BF61C0912DB00C02B1F /* n100.png */,
 				E5423BF61C080A5D00AC2635 /* Titulo.png */,
 				E5423C011C0813D700AC2635 /* FondoMain.png */,
 				E51631F91C07E2660049A665 /* bntRegresar2.png */,
@@ -512,6 +533,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CA3BFB1C0912DB00C02B1F /* n50.png in Resources */,
 				18DA83D21C07DCAB000FBC7D /* Anna-Roman.otf in Resources */,
 				18DE69DB1BA6639900FC3B71 /* 5.jpg in Resources */,
 				E525AA1E1C07F96C00191A5E /* monedaspng.png in Resources */,
@@ -527,10 +549,13 @@
 				E51632191C07E4460049A665 /* 100pesos.png in Resources */,
 				E5423C101C0873D100AC2635 /* nivel1.png in Resources */,
 				E525AA181C07F64F00191A5E /* globito.png in Resources */,
+				E5CA3BF91C0912DB00C02B1F /* n5.png in Resources */,
 				E5423C0E1C08700300AC2635 /* Recuerda.png in Resources */,
 				18DE69DF1BA6639900FC3B71 /* 100.jpg in Resources */,
+				E5CA3BFA1C0912DB00C02B1F /* n20.png in Resources */,
 				E5B51DA71BD5424F008182EB /* pelota.png in Resources */,
 				18DE69DA1BA6639900FC3B71 /* 2.jpg in Resources */,
+				E5CA3BF81C0912DB00C02B1F /* n2.png in Resources */,
 				E516321B1C07E45F0049A665 /* monito.png in Resources */,
 				E516320A1C07E2660049A665 /* botonN3.png in Resources */,
 				E5B51D9F1BD5424F008182EB /* dulce.png in Resources */,
@@ -544,6 +569,7 @@
 				E5B51DA51BD5424F008182EB /* osito.png in Resources */,
 				E51632031C07E2660049A665 /* bntRegresar2.png in Resources */,
 				E51632061C07E2660049A665 /* botonEsta.png in Resources */,
+				E5CA3BFC1C0912DB00C02B1F /* n100.png in Resources */,
 				E51632151C07E4460049A665 /* 2pesos.png in Resources */,
 				E5423C0C1C084A6C00AC2635 /* intentaloDenuevo.png in Resources */,
 				E516321D1C07E59C0049A665 /* 50peso.png in Resources */,
@@ -552,6 +578,7 @@
 				182F2BEB1BA67AA200F788E5 /* buying.png in Resources */,
 				186E931C1C0870AD002D81D9 /* leche.png in Resources */,
 				E516320C1C07E2660049A665 /* botonSalir.png in Resources */,
+				E5CA3C011C09141E00C02B1F /* n10.png in Resources */,
 				18DE69B51BA6584600FC3B71 /* LaunchScreen.xib in Resources */,
 				E516320B1C07E2660049A665 /* botonRegresar.png in Resources */,
 				E5423C041C08183200AC2635 /* igual.png in Resources */,
@@ -559,6 +586,7 @@
 				182F2BEC1BA67AA200F788E5 /* home.png in Resources */,
 				E5423C0B1C084A6C00AC2635 /* felicidades.png in Resources */,
 				E5B51DA11BD5424F008182EB /* lapiz.png in Resources */,
+				E5CA3BF71C0912DB00C02B1F /* n1.png in Resources */,
 				E525AA211C07FC0300191A5E /* AcercaDe.png in Resources */,
 				182F2BEA1BA67AA200F788E5 /* about.png in Resources */,
 				E51632171C07E4460049A665 /* 10pesos.png in Resources */,

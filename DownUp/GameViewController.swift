@@ -101,6 +101,7 @@ class GameViewController: UIViewController {
         }
     }
     
+    
     func moneyDragged(gesture: UIPanGestureRecognizer) {
         let pos = gesture.locationInView(self.moneyBagView)
         let view = gesture.view!

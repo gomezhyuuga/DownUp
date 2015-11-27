@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="UpL-YK-bdb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="UpL-YK-bdb">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
@@ -53,12 +53,6 @@
                                             <segue destination="fEh-g1-Rac" kind="push" id="gcf-3n-Bxd"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="USp-zM-cTj">
-                                        <rect key="frame" x="241" y="559" width="178" height="104"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <state key="normal" image="botonSalir.png"/>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HQE-iJ-d7c">
                                         <rect key="frame" x="595" y="759" width="82" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -73,6 +67,15 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="USp-zM-cTj">
+                                        <rect key="frame" x="239" y="553" width="178" height="104"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" image="botonSalir.png"/>
+                                        <connections>
+                                            <action selector="exitButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="tM5-AG-kfs"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -387,13 +390,48 @@ RXN0YWQFw61zdGljYXM
                                 <animations/>
                                 <color key="backgroundColor" red="0.64313725489999995" green="0.80000000000000004" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nivel1.png" id="KBa-TX-gKZ">
-                                <rect key="frame" x="1" y="67" width="464" height="72"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2pesos.png" id="hcx-rY-azW">
+                                <rect key="frame" x="171" y="345" width="76" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2pesos.png" id="hcx-rY-azW">
-                                <rect key="frame" x="171" y="345" width="76" height="80"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n50.png" id="c9C-0G-8m5">
+                                <rect key="frame" x="509" y="309" width="149" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n100.png" id="UcK-yp-xOc">
+                                <rect key="frame" x="614" y="406" width="134" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n5.png" id="J6a-oy-O5J">
+                                <rect key="frame" x="524" y="507" width="134" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n10.png" id="HZd-Te-i6B">
+                                <rect key="frame" x="614" y="613" width="134" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n2.png" id="vZ0-YL-kfI">
+                                <rect key="frame" x="524" y="717" width="134" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n1.png" id="aJe-nE-PwF">
+                                <rect key="frame" x="614" y="816" width="134" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n20.png" id="xuo-Kf-c8U">
+                                <rect key="frame" x="524" y="918" width="134" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nivel1.png" id="KBa-TX-gKZ">
+                                <rect key="frame" x="156" y="67" width="428" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
@@ -832,6 +870,13 @@ RXN0YWQFw61zdGljYXM
         <image name="manzana.png" width="256" height="256"/>
         <image name="monedaspng.png" width="1029" height="325"/>
         <image name="monito.png" width="533" height="714"/>
+        <image name="n1.png" width="338" height="216"/>
+        <image name="n10.png" width="337" height="216"/>
+        <image name="n100.png" width="337" height="216"/>
+        <image name="n2.png" width="338" height="216"/>
+        <image name="n20.png" width="337" height="216"/>
+        <image name="n5.png" width="338" height="216"/>
+        <image name="n50.png" width="337" height="216"/>
         <image name="nivel1.png" width="730" height="127"/>
         <image name="niveles.png" width="1029" height="183"/>
         <image name="osito.png" width="512" height="512"/>
