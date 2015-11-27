@@ -51,6 +51,7 @@
 		E51632191C07E4460049A665 /* 100pesos.png in Resources */ = {isa = PBXBuildFile; fileRef = E51632131C07E4460049A665 /* 100pesos.png */; };
 		E516321B1C07E45F0049A665 /* monito.png in Resources */ = {isa = PBXBuildFile; fileRef = E516321A1C07E45F0049A665 /* monito.png */; };
 		E516321D1C07E59C0049A665 /* 50peso.png in Resources */ = {isa = PBXBuildFile; fileRef = E516321C1C07E59C0049A665 /* 50peso.png */; };
+		E525AA181C07F64F00191A5E /* globito.png in Resources */ = {isa = PBXBuildFile; fileRef = E525AA171C07F64F00191A5E /* globito.png */; };
 		E5B51D951BD54214008182EB /* chocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D941BD54214008182EB /* chocolate.png */; };
 		E5B51D9F1BD5424F008182EB /* dulce.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D961BD5424F008182EB /* dulce.png */; };
 		E5B51DA01BD5424F008182EB /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D971BD5424F008182EB /* ipad.png */; };
@@ -143,6 +144,7 @@
 		E51632131C07E4460049A665 /* 100pesos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100pesos.png; sourceTree = "<group>"; };
 		E516321A1C07E45F0049A665 /* monito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monito.png; sourceTree = "<group>"; };
 		E516321C1C07E59C0049A665 /* 50peso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50peso.png; sourceTree = "<group>"; };
+		E525AA171C07F64F00191A5E /* globito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globito.png; sourceTree = "<group>"; };
 		E5B51D941BD54214008182EB /* chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chocolate.png; sourceTree = "<group>"; };
 		E5B51D961BD5424F008182EB /* dulce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dulce.png; sourceTree = "<group>"; };
 		E5B51D971BD5424F008182EB /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 				E516321A1C07E45F0049A665 /* monito.png */,
 				E5B51D961BD5424F008182EB /* dulce.png */,
 				E5B51D971BD5424F008182EB /* ipad.png */,
+				E525AA171C07F64F00191A5E /* globito.png */,
 				E5B51D981BD5424F008182EB /* lapiz.png */,
 				E5B51D991BD5424F008182EB /* leche.jpg */,
 				E5B51D9A1BD5424F008182EB /* libro.png */,
@@ -457,6 +460,7 @@
 				E5B51D951BD54214008182EB /* chocolate.png in Resources */,
 				E5B51DA31BD5424F008182EB /* libro.png in Resources */,
 				E51632191C07E4460049A665 /* 100pesos.png in Resources */,
+				E525AA181C07F64F00191A5E /* globito.png in Resources */,
 				182F2BF01BA67B8500F788E5 /* cat.png in Resources */,
 				18DE69DF1BA6639900FC3B71 /* 100.jpg in Resources */,
 				E5B51DA71BD5424F008182EB /* pelota.png in Resources */,
