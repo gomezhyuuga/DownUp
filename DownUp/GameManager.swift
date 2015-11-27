@@ -28,23 +28,10 @@ class GameManager {
 
     var itemToBuy: Item?
     var moneyAcum: Int
-    var successful: Bool
-
-	func checkForError() {
-		if (successful == false) {
-			print("Casi lo logras! te pasaste por tantito.")
-		}
-	}
     
-    func selectItem(item: Item) -> Item? {
-//        for i in objects {
-//            if item.img == i.img {
-//                return i
-//            }
-//        }
-//        return Optional<Item>()
-        let randomIndex = Int(arc4random_uniform(UInt32(objects.count)))
-        return objects[randomIndex]
+    init() {
+        self.itemToBuy = Optional<Item>()
+        self.moneyAcum = 0
     }
     
     func startGame(itemToBuy: Item, level: Level) {
@@ -73,16 +60,22 @@ class GameManager {
         return (itemToBuy?.price)! - moneyAcum
     }
     
-    init() {
-        itemToBuy = Optional<Item>()
-        moneyAcum = 0
-        successful = true
+    private func selectItem(item: Item) -> Item? {
+        //        for i in objects {
+        //            if item.img == i.img {
+        //                return i
+        //            }
+        //        }
+        //        return Optional<Item>()
+        let randomIndex = Int(arc4random_uniform(UInt32(objects.count)))
+        return objects[randomIndex]
     }
     
     private func getRandomPriceForLevel(level: Level) -> Int {
         let multiplier: Int = level == Level.TWO ? 5 : 1
-        // Random number between 0 and 40 to create a price that 10 <= price <= 200
-        let randomNumber = Int(arc4random_uniform(UInt32(200)))
+        let max: Int = level == Level.TWO ? 150 : 200
+        // Random number between 0 and 40 to create a price that 10 <= price <= max
+        let randomNumber = Int(arc4random_uniform(UInt32(max)))
         let price = 10 + randomNumber * multiplier
         return price
     }
