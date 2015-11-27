@@ -55,6 +55,8 @@
 		E525AA1E1C07F96C00191A5E /* monedaspng.png in Resources */ = {isa = PBXBuildFile; fileRef = E525AA1C1C07F96C00191A5E /* monedaspng.png */; };
 		E525AA1F1C07F96C00191A5E /* niveles.png in Resources */ = {isa = PBXBuildFile; fileRef = E525AA1D1C07F96C00191A5E /* niveles.png */; };
 		E525AA211C07FC0300191A5E /* AcercaDe.png in Resources */ = {isa = PBXBuildFile; fileRef = E525AA201C07FC0300191A5E /* AcercaDe.png */; };
+		E525AA231C07FDCE00191A5E /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E525AA221C07FDCE00191A5E /* MainMenuViewController.swift */; };
+		E525AA251C07FDF400191A5E /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E525AA241C07FDF400191A5E /* LevelsViewController.swift */; };
 		E5B51D951BD54214008182EB /* chocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D941BD54214008182EB /* chocolate.png */; };
 		E5B51D9F1BD5424F008182EB /* dulce.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D961BD5424F008182EB /* dulce.png */; };
 		E5B51DA01BD5424F008182EB /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D971BD5424F008182EB /* ipad.png */; };
@@ -151,6 +153,8 @@
 		E525AA1C1C07F96C00191A5E /* monedaspng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monedaspng.png; sourceTree = "<group>"; };
 		E525AA1D1C07F96C00191A5E /* niveles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niveles.png; sourceTree = "<group>"; };
 		E525AA201C07FC0300191A5E /* AcercaDe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AcercaDe.png; sourceTree = "<group>"; };
+		E525AA221C07FDCE00191A5E /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		E525AA241C07FDF400191A5E /* LevelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
 		E5B51D941BD54214008182EB /* chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chocolate.png; sourceTree = "<group>"; };
 		E5B51D961BD5424F008182EB /* dulce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dulce.png; sourceTree = "<group>"; };
 		E5B51D971BD5424F008182EB /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
@@ -220,6 +224,8 @@
 				18DE69A81BA6584600FC3B71 /* AppDelegate.swift */,
 				18DE69AA1BA6584600FC3B71 /* GameViewController.swift */,
 				18DE69AC1BA6584600FC3B71 /* StatisticsViewController.swift */,
+				E525AA221C07FDCE00191A5E /* MainMenuViewController.swift */,
+				E525AA241C07FDF400191A5E /* LevelsViewController.swift */,
 				18DE69CA1BA65A8500FC3B71 /* AboutViewController.swift */,
 				18DE69AE1BA6584600FC3B71 /* Main.storyboard */,
 				18FB6C7E1BFF6E45000FA72F /* ViewController.swift */,
@@ -525,6 +531,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E525AA231C07FDCE00191A5E /* MainMenuViewController.swift in Sources */,
+				E525AA251C07FDF400191A5E /* LevelsViewController.swift in Sources */,
 				18DE69AD1BA6584600FC3B71 /* StatisticsViewController.swift in Sources */,
 				18FF67631BCC5EF60090110F /* GameManager.swift in Sources */,
 				18FF67611BCC5B880090110F /* Bill.swift in Sources */,
