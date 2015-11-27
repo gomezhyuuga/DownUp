@@ -9,6 +9,7 @@
 import Foundation
 
 struct Item {
+    let name: String
     let img: String
     let price: Int
 }

@@ -11,7 +11,7 @@ import UIKit
 class GameViewController: UIViewController {
     
     var game = GameManager()
-    var item: Item = Item(img: "osito.png", price: 33)
+    var item: Item = Item(name: "Osito", img: "osito.png", price: 33)
     
     var selected: [Int] = [Int]()
     
@@ -22,6 +22,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var lblAcum: UILabel!
     
     @IBOutlet weak var lblQ1: UILabel!
+
     @IBOutlet weak var lblQ10: UILabel!
     @IBOutlet weak var lblQ5: UILabel!
     @IBOutlet weak var lblQ2: UILabel!

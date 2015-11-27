@@ -10,17 +10,16 @@ import Foundation
 
 class GameManager {
     var objects: [Item] = [
-        Item(img: "osito.png", price: 85),
-        Item(img: "manzana.png", price: 8),
-        Item(img: "chocolate.png", price: 7),
-        Item(img: "pan.png", price: 1),
-        Item(img: "pelota.png", price: 4),
-        Item(img: "leche.jpg", price: 5),
-        Item(img: "libro.png", price: 3),
-        Item(img: "ipad.jpg", price: 70),
-        Item(img: "lapiz.png", price: 6),
-        Item(img: "dulce.png", price: 4),
-       
+        Item(name: "osito", img: "osito.png", price: 85),
+        Item(name: "manzana", img: "manzana.png", price: 8),
+        Item(name: "chocolate", img: "chocolate.png", price: 7),
+        Item(name: "pan", img: "pan.png", price: 1),
+        Item(name: "pelota", img: "pelota.png", price: 4),
+        Item(name: "leche", img: "leche.jpg", price: 5),
+        Item(name: "libro", img: "libro.png", price: 3),
+        Item(name: "ipad", img: "ipad.jpg", price: 70),
+        Item(name: "lapiz", img: "lapiz.png", price: 6),
+        Item(name: "dulce", img: "dulce.png", price: 4),
     ]
 
     var itemToBuy: Item?
