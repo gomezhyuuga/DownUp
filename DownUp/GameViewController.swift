@@ -80,7 +80,7 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        game.startGame(item, level: Level.ONE)
+        game.startGame(item, level: Level.TWO)
         setup()
     }
     
@@ -92,6 +92,8 @@ class GameViewController: UIViewController {
         for _ in 1...110 {
             selected.append(0)
         }
+        var gesture: UIPanGestureRecognizer = UIPanGestureRecognizer(target: self, action: "moneyDragged:")
+
     }
 
     override func didReceiveMemoryWarning() {

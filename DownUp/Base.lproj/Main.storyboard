@@ -10,8 +10,6 @@
             <string>Anna-Roman</string>
             <string>Anna-Roman</string>
             <string>Anna-Roman</string>
-            <string>Anna-Roman</string>
-            <string>Anna-Roman</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -546,11 +544,11 @@ RXN0YWQFw61zdGljYXM
                                         <color key="textColor" red="0.52506536245346069" green="0.8607255220413208" blue="0.92592495679855347" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$80 PESOS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WFR-nH-14F">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$80 pesos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WFR-nH-14F">
                                         <rect key="frame" x="159" y="497" width="193" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
-                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="27"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="27"/>
                                         <color key="textColor" red="0.52506536250000002" green="0.86072552199999997" blue="0.92592495679999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -583,14 +581,6 @@ RXN0YWQFw61zdGljYXM
                                 <animations/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="38"/>
                                 <color key="textColor" red="0.92655479907989502" green="0.90796780586242676" blue="0.51620650291442871" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$80 PESOS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="una-SD-tgj">
-                                <rect key="frame" x="440" y="256" width="308" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="Anna-Roman" family="Anna" pointSize="38"/>
-                                <color key="textColor" red="0.52972978353500366" green="0.94466733932495117" blue="0.51537346839904785" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fQp-LN-sNq">
@@ -635,88 +625,78 @@ RXN0YWQFw61zdGljYXM
                                         <color key="textColor" red="0.59682291750000005" green="0.45607957999999998" blue="0.43496802150000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0 Pesos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T9E-4R-Cyr">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0 pesos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T9E-4R-Cyr">
                                         <rect key="frame" x="127" y="497" width="225" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
-                                        <fontDescription key="fontDescription" name="Anna-Roman" family="Anna" pointSize="28"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="28"/>
                                         <color key="textColor" red="0.59682291750000005" green="0.45607957999999998" blue="0.43496802150000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rjE-Iw-etj" userLabel="1">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rjE-Iw-etj" userLabel="1">
                                         <rect key="frame" x="51" y="66" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="1"/>
                                         <state key="normal" backgroundImage="1.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="enu-Ys-fg4"/>
-                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vc0-lA-hLq" userLabel="2">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vc0-lA-hLq" userLabel="2">
                                         <rect key="frame" x="46" y="148" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="2"/>
                                         <state key="normal" backgroundImage="2.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="2Ku-8C-Slb"/>
-                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6He-1a-FF3" userLabel="5">
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6He-1a-FF3" userLabel="5">
                                         <rect key="frame" x="36" y="231" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="5"/>
                                         <state key="normal" backgroundImage="5.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="Zd5-bk-Qfv"/>
-                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pkM-pH-vZL" userLabel="10">
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pkM-pH-vZL" userLabel="10">
                                         <rect key="frame" x="26" y="343" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="10"/>
                                         <state key="normal" backgroundImage="10.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="Dby-cB-5yf"/>
-                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9ha-qP-a9r" userLabel="50">
+                                    <button opaque="NO" tag="50" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9ha-qP-a9r" userLabel="50">
                                         <rect key="frame" x="146" y="205" width="186" height="94"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="50"/>
+                                        <gestureRecognizers/>
                                         <state key="normal" backgroundImage="50.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="oCp-AJ-ibA"/>
-                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qBC-kX-qH3" userLabel="100">
+                                    <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qBC-kX-qH3" userLabel="100">
                                         <rect key="frame" x="146" y="346" width="186" height="94"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="100"/>
+                                        <gestureRecognizers/>
                                         <state key="normal" backgroundImage="100.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="wkL-C2-1ko"/>
-                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PAq-Sm-IyA" userLabel="20">
+                                    <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PAq-Sm-IyA" userLabel="20">
                                         <rect key="frame" x="146" y="75" width="186" height="94"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="20"/>
+                                        <gestureRecognizers/>
                                         <state key="normal" backgroundImage="20.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="Acv-eo-gNT"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$80 pesos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="una-SD-tgj">
+                                <rect key="frame" x="440" y="256" width="308" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="38"/>
+                                <color key="textColor" red="0.52972978353500366" green="0.94466733932495117" blue="0.51537346839904785" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.27058823529411763" green="0.69803921568627447" blue="0.85490196078431369" alpha="1" colorSpace="calibratedRGB"/>
