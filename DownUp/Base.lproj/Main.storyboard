@@ -554,6 +554,11 @@ RXN0YWQFw61zdGljYXM
                                         <color key="textColor" red="0.52506536250000002" green="0.86072552199999997" blue="0.92592495679999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="monito.png" id="VGw-rd-gbP">
+                                        <rect key="frame" x="129" y="130" width="223" height="282"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" red="0.59682291746139526" green="0.4560795799748511" blue="0.43496802145779684" alpha="1" colorSpace="calibratedRGB"/>
@@ -572,12 +577,10 @@ RXN0YWQFw61zdGljYXM
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9TJ-Uh-WHC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Osito de peluche" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9TJ-Uh-WHC">
                                 <rect key="frame" x="259" y="143" width="489" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <string key="text">Nombre de
-Producto</string>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="38"/>
                                 <color key="textColor" red="0.92655479907989502" green="0.90796780586242676" blue="0.51620650291442871" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -640,57 +643,7 @@ Producto</string>
                                         <color key="textColor" red="0.59682291750000005" green="0.45607957999999998" blue="0.43496802150000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9ha-qP-a9r">
-                                        <rect key="frame" x="166" y="158" width="186" height="94"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <accessibility key="accessibilityConfiguration" identifier="50"/>
-                                        <state key="normal" backgroundImage="50.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="oCp-AJ-ibA"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qBC-kX-qH3">
-                                        <rect key="frame" x="166" y="260" width="186" height="94"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <accessibility key="accessibilityConfiguration" identifier="100"/>
-                                        <state key="normal" backgroundImage="100.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="wkL-C2-1ko"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PAq-Sm-IyA">
-                                        <rect key="frame" x="166" y="56" width="186" height="94"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <accessibility key="accessibilityConfiguration" identifier="20"/>
-                                        <state key="normal" backgroundImage="20.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="Acv-eo-gNT"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6He-1a-FF3">
-                                        <rect key="frame" x="36" y="192" width="80" height="80"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <accessibility key="accessibilityConfiguration" identifier="5"/>
-                                        <state key="normal" backgroundImage="5.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="Zd5-bk-Qfv"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vc0-lA-hLq">
-                                        <rect key="frame" x="46" y="124" width="60" height="60"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <accessibility key="accessibilityConfiguration" identifier="2"/>
-                                        <state key="normal" backgroundImage="2.jpg"/>
-                                        <connections>
-                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="2Ku-8C-Slb"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rjE-Iw-etj">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rjE-Iw-etj" userLabel="1">
                                         <rect key="frame" x="51" y="66" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
@@ -700,14 +653,64 @@ Producto</string>
                                             <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="enu-Ys-fg4"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pkM-pH-vZL">
-                                        <rect key="frame" x="26" y="278" width="100" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vc0-lA-hLq" userLabel="2">
+                                        <rect key="frame" x="46" y="148" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <accessibility key="accessibilityConfiguration" identifier="2"/>
+                                        <state key="normal" backgroundImage="2.jpg"/>
+                                        <connections>
+                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="2Ku-8C-Slb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6He-1a-FF3" userLabel="5">
+                                        <rect key="frame" x="36" y="231" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <accessibility key="accessibilityConfiguration" identifier="5"/>
+                                        <state key="normal" backgroundImage="5.jpg"/>
+                                        <connections>
+                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="Zd5-bk-Qfv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pkM-pH-vZL" userLabel="10">
+                                        <rect key="frame" x="26" y="343" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <accessibility key="accessibilityConfiguration" identifier="10"/>
                                         <state key="normal" backgroundImage="10.jpg"/>
                                         <connections>
                                             <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="Dby-cB-5yf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9ha-qP-a9r" userLabel="50">
+                                        <rect key="frame" x="146" y="205" width="186" height="94"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <accessibility key="accessibilityConfiguration" identifier="50"/>
+                                        <state key="normal" backgroundImage="50.jpg"/>
+                                        <connections>
+                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="oCp-AJ-ibA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qBC-kX-qH3" userLabel="100">
+                                        <rect key="frame" x="146" y="346" width="186" height="94"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <accessibility key="accessibilityConfiguration" identifier="100"/>
+                                        <state key="normal" backgroundImage="100.jpg"/>
+                                        <connections>
+                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="wkL-C2-1ko"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PAq-Sm-IyA" userLabel="20">
+                                        <rect key="frame" x="146" y="75" width="186" height="94"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <accessibility key="accessibilityConfiguration" identifier="20"/>
+                                        <state key="normal" backgroundImage="20.jpg"/>
+                                        <connections>
+                                            <action selector="pay:" destination="Wvq-nw-KOH" eventType="touchUpInside" id="Acv-eo-gNT"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -792,6 +795,7 @@ Producto</string>
         <image name="monedaspng.png" width="1029" height="325"/>
         <image name="nivel1.png" width="730" height="127"/>
         <image name="niveles.png" width="1029" height="183"/>
+        <image name="monito.png" width="533" height="714"/>
         <image name="osito.png" width="512" height="512"/>
         <image name="pan.png" width="256" height="256"/>
         <image name="pelota.png" width="256" height="256"/>
