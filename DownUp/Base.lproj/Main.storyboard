@@ -721,7 +721,7 @@ Producto</string>
                     <tabBarItem key="tabBarItem" title="Juego" image="first" id="whC-gb-E3n"/>
                     <navigationItem key="navigationItem" id="GN1-dQ-Tdd"/>
                     <connections>
-                        <outlet property="lblAcum" destination="i1m-RL-B1L" id="l5w-CN-AV8"/>
+                        <outlet property="lblAcum" destination="T9E-4R-Cyr" id="HLY-wx-XHu"/>
                         <outlet property="lblItemName" destination="9TJ-Uh-WHC" id="03Q-af-bQW"/>
                         <outlet property="lblMoneyLeft" destination="WFR-nH-14F" id="iXK-Mb-Qtt"/>
                         <outlet property="lblPrice" destination="una-SD-tgj" id="6yK-fx-Xcd"/>

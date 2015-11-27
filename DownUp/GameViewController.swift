@@ -22,7 +22,6 @@ class GameViewController: UIViewController {
     @IBOutlet weak var lblAcum: UILabel!
     
     @IBOutlet weak var lblQ1: UILabel!
-    
     @IBOutlet weak var lblQ10: UILabel!
     @IBOutlet weak var lblQ5: UILabel!
     @IBOutlet weak var lblQ2: UILabel!
