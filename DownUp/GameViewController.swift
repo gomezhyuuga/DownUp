@@ -24,6 +24,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var lblMoneyLeft: UILabel!
     @IBOutlet weak var lblAcum: UILabel!
     @IBOutlet weak var moneyBagView: UIView!
+    @IBOutlet weak var dropZoneView: UIView!
     
     @IBOutlet weak var lblQ1: UILabel!
 
@@ -114,8 +115,7 @@ class GameViewController: UIViewController {
     
     
     func moneyDragged(gesture: UIPanGestureRecognizer) {
-        var pos = gesture.locationInView(moneyBagView)
-
+        let pos = gesture.locationInView(self.moneyBagView)
         let view = gesture.view!
         var frame = view.frame
         
@@ -126,11 +126,20 @@ class GameViewController: UIViewController {
             frame.origin = pos
             view.center = pos
         case UIGestureRecognizerState.Ended:
+            // If drags to the DROP ZONE
+            if draggedIntoDropZone(gesture) {
+                print("ADD Q")
+            }
+            // Restart its original position
             frame.origin = self.startPanPosition!
             view.frame = frame
         default:
             break
         }
+    }
+    
+    private func draggedIntoDropZone(gesture: UIPanGestureRecognizer) -> Bool {
+        return CGRectContainsPoint(self.dropZoneView.bounds, gesture.locationInView(self.dropZoneView))
     }
 
     override func didReceiveMemoryWarning() {
