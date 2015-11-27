@@ -52,6 +52,9 @@
 		E516321B1C07E45F0049A665 /* monito.png in Resources */ = {isa = PBXBuildFile; fileRef = E516321A1C07E45F0049A665 /* monito.png */; };
 		E516321D1C07E59C0049A665 /* 50peso.png in Resources */ = {isa = PBXBuildFile; fileRef = E516321C1C07E59C0049A665 /* 50peso.png */; };
 		E525AA181C07F64F00191A5E /* globito.png in Resources */ = {isa = PBXBuildFile; fileRef = E525AA171C07F64F00191A5E /* globito.png */; };
+		E525AA1E1C07F96C00191A5E /* monedaspng.png in Resources */ = {isa = PBXBuildFile; fileRef = E525AA1C1C07F96C00191A5E /* monedaspng.png */; };
+		E525AA1F1C07F96C00191A5E /* niveles.png in Resources */ = {isa = PBXBuildFile; fileRef = E525AA1D1C07F96C00191A5E /* niveles.png */; };
+		E525AA211C07FC0300191A5E /* AcercaDe.png in Resources */ = {isa = PBXBuildFile; fileRef = E525AA201C07FC0300191A5E /* AcercaDe.png */; };
 		E5B51D951BD54214008182EB /* chocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D941BD54214008182EB /* chocolate.png */; };
 		E5B51D9F1BD5424F008182EB /* dulce.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D961BD5424F008182EB /* dulce.png */; };
 		E5B51DA01BD5424F008182EB /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D971BD5424F008182EB /* ipad.png */; };
@@ -145,6 +148,9 @@
 		E516321A1C07E45F0049A665 /* monito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monito.png; sourceTree = "<group>"; };
 		E516321C1C07E59C0049A665 /* 50peso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50peso.png; sourceTree = "<group>"; };
 		E525AA171C07F64F00191A5E /* globito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globito.png; sourceTree = "<group>"; };
+		E525AA1C1C07F96C00191A5E /* monedaspng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monedaspng.png; sourceTree = "<group>"; };
+		E525AA1D1C07F96C00191A5E /* niveles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niveles.png; sourceTree = "<group>"; };
+		E525AA201C07FC0300191A5E /* AcercaDe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AcercaDe.png; sourceTree = "<group>"; };
 		E5B51D941BD54214008182EB /* chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chocolate.png; sourceTree = "<group>"; };
 		E5B51D961BD5424F008182EB /* dulce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dulce.png; sourceTree = "<group>"; };
 		E5B51D971BD5424F008182EB /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
@@ -314,8 +320,11 @@
 				E51631F91C07E2660049A665 /* bntRegresar2.png */,
 				E51631FA1C07E2660049A665 /* bntRegresar3.png */,
 				E51631FB1C07E2660049A665 /* botonAyuda.png */,
+				E525AA201C07FC0300191A5E /* AcercaDe.png */,
 				E51631FC1C07E2660049A665 /* botonEsta.png */,
 				E51631FD1C07E2660049A665 /* botonJugar.png */,
+				E525AA1C1C07F96C00191A5E /* monedaspng.png */,
+				E525AA1D1C07F96C00191A5E /* niveles.png */,
 				E51631FE1C07E2660049A665 /* botonN1.png */,
 				E51631FF1C07E2660049A665 /* botonN2.png */,
 				E51632001C07E2660049A665 /* botonN3.png */,
@@ -452,8 +461,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DE69DB1BA6639900FC3B71 /* 5.jpg in Resources */,
+				E525AA1E1C07F96C00191A5E /* monedaspng.png in Resources */,
 				E5B51DA01BD5424F008182EB /* ipad.png in Resources */,
 				18DE69B01BA6584600FC3B71 /* Main.storyboard in Resources */,
+				E525AA1F1C07F96C00191A5E /* niveles.png in Resources */,
 				E5B51DA41BD5424F008182EB /* manzana.png in Resources */,
 				E51632161C07E4460049A665 /* 5pesos.png in Resources */,
 				E5B51DA61BD5424F008182EB /* pan.png in Resources */,
@@ -488,6 +499,7 @@
 				18DE69B21BA6584600FC3B71 /* Images.xcassets in Resources */,
 				182F2BEC1BA67AA200F788E5 /* home.png in Resources */,
 				E5B51DA11BD5424F008182EB /* lapiz.png in Resources */,
+				E525AA211C07FC0300191A5E /* AcercaDe.png in Resources */,
 				182F2BEA1BA67AA200F788E5 /* about.png in Resources */,
 				E51632171C07E4460049A665 /* 10pesos.png in Resources */,
 				E51632041C07E2660049A665 /* bntRegresar3.png in Resources */,
