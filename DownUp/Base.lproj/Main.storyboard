@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="UpL-YK-bdb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="UpL-YK-bdb">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
@@ -428,90 +428,60 @@ RXN0YWQFw61zdGljYXM
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="chocolate.png"/>
-                                <connections>
-                                    <action selector="objectChoco:" destination="tNb-Wj-eAg" eventType="touchUpInside" id="pQZ-MI-Cg1"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="To0-LI-Fxb">
                                 <rect key="frame" x="540" y="379" width="102" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="dulce.png"/>
-                                <connections>
-                                    <action selector="objectLollipop:" destination="tNb-Wj-eAg" eventType="touchUpInside" id="lmQ-kf-2iZ"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xP8-0e-hKY">
                                 <rect key="frame" x="650" y="343" width="94" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="leche.jpg"/>
-                                <connections>
-                                    <action selector="objectMilk:" destination="tNb-Wj-eAg" eventType="touchUpInside" id="A7F-rR-BAH"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0bc-1N-EG8">
                                 <rect key="frame" x="606" y="560" width="130" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" image="libro.png"/>
-                                <connections>
-                                    <action selector="objectBook:" destination="tNb-Wj-eAg" eventType="touchUpInside" id="xBX-OR-fcn"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OoG-Xh-XO5">
                                 <rect key="frame" x="433" y="410" width="88" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="manzana.png"/>
-                                <connections>
-                                    <action selector="objectApple:" destination="tNb-Wj-eAg" eventType="touchUpInside" id="YfB-of-OOf"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QBO-b3-jAg">
                                 <rect key="frame" x="27" y="515" width="171" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="osito.png"/>
-                                <connections>
-                                    <action selector="objectBear:" destination="tNb-Wj-eAg" eventType="touchUpInside" id="vsk-aB-t1M"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kxI-4i-izm">
                                 <rect key="frame" x="338" y="417" width="78" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="pan.png"/>
-                                <connections>
-                                    <action selector="objectDonut:" destination="tNb-Wj-eAg" eventType="touchUpInside" id="lwb-TO-Dkd"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qz2-W7-wWc">
                                 <rect key="frame" x="230" y="561" width="118" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="pelota.png"/>
-                                <connections>
-                                    <action selector="objectBall:" destination="tNb-Wj-eAg" eventType="touchUpInside" id="MRn-mj-knN"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kpZ-Dl-ROV">
                                 <rect key="frame" x="406" y="537" width="169" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="ipad.png"/>
-                                <connections>
-                                    <action selector="objectiPad:" destination="tNb-Wj-eAg" eventType="touchUpInside" id="Zeu-fg-AHa"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9Lr-Vo-wo2">
                                 <rect key="frame" x="304" y="301" width="92" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="lapiz.png"/>
-                                <connections>
-                                    <action selector="objectPencil:" destination="tNb-Wj-eAg" eventType="touchUpInside" id="xmI-uN-xqj"/>
-                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -754,6 +724,7 @@ RXN0YWQFw61zdGljYXM
         <image name="FondoMain.png" width="1125" height="1501"/>
         <image name="Recuerda.png" width="948" height="1477"/>
         <image name="Titulo.png" width="1029" height="152"/>
+        <image name="back" width="93" height="81"/>
         <image name="botonAyuda.png" width="175" height="167"/>
         <image name="botonEsta.png" width="474" height="203"/>
         <image name="botonJugar.png" width="474" height="213"/>
@@ -761,8 +732,6 @@ RXN0YWQFw61zdGljYXM
         <image name="botonN2.png" width="331" height="217"/>
         <image name="botonN3.png" width="331" height="211"/>
         <image name="botonSalir.png" width="302" height="156"/>
-        <image name="about.png" width="768" height="1024"/>
-        <image name="back" width="93" height="81"/>
         <image name="chocolate.png" width="256" height="256"/>
         <image name="dulce.png" width="580" height="898"/>
         <image name="first" width="30" height="30"/>
