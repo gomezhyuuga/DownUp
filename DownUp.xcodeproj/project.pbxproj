@@ -84,6 +84,8 @@
 		E5CA3BFB1C0912DB00C02B1F /* n50.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3BF51C0912DB00C02B1F /* n50.png */; };
 		E5CA3BFC1C0912DB00C02B1F /* n100.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3BF61C0912DB00C02B1F /* n100.png */; };
 		E5CA3C011C09141E00C02B1F /* n10.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3C001C09141E00C02B1F /* n10.png */; };
+		E5CA3C031C0915FC00C02B1F /* instruccionesN1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3C021C0915FC00C02B1F /* instruccionesN1.png */; };
+		E5CA3C071C0918F500C02B1F /* menuNiveles.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3C061C0918F500C02B1F /* menuNiveles.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +201,8 @@
 		E5CA3BF51C0912DB00C02B1F /* n50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n50.png; sourceTree = "<group>"; };
 		E5CA3BF61C0912DB00C02B1F /* n100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n100.png; sourceTree = "<group>"; };
 		E5CA3C001C09141E00C02B1F /* n10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n10.png; sourceTree = "<group>"; };
+		E5CA3C021C0915FC00C02B1F /* instruccionesN1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instruccionesN1.png; sourceTree = "<group>"; };
+		E5CA3C061C0918F500C02B1F /* menuNiveles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuNiveles.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,10 +372,12 @@
 		E51631F51C07E2310049A665 /* botones */ = {
 			isa = PBXGroup;
 			children = (
+				E5CA3C021C0915FC00C02B1F /* instruccionesN1.png */,
 				E5CA3C001C09141E00C02B1F /* n10.png */,
-				E5423C0F1C0873D100AC2635 /* nivel1.png */,
 				E5CA3BF11C0912DB00C02B1F /* n1.png */,
+				E5423C0F1C0873D100AC2635 /* nivel1.png */,
 				E5CA3BF21C0912DB00C02B1F /* n2.png */,
+				E5CA3C061C0918F500C02B1F /* menuNiveles.png */,
 				E5CA3BF31C0912DB00C02B1F /* n5.png */,
 				E5CA3BF41C0912DB00C02B1F /* n20.png */,
 				E5CA3BF51C0912DB00C02B1F /* n50.png */,
@@ -547,6 +553,7 @@
 				E5B51D951BD54214008182EB /* chocolate.png in Resources */,
 				E5B51DA31BD5424F008182EB /* libro.png in Resources */,
 				E51632191C07E4460049A665 /* 100pesos.png in Resources */,
+				E5CA3C031C0915FC00C02B1F /* instruccionesN1.png in Resources */,
 				E5423C101C0873D100AC2635 /* nivel1.png in Resources */,
 				E525AA181C07F64F00191A5E /* globito.png in Resources */,
 				E5CA3BF91C0912DB00C02B1F /* n5.png in Resources */,
@@ -568,6 +575,7 @@
 				18DE69D91BA6639900FC3B71 /* 1.jpg in Resources */,
 				E5B51DA51BD5424F008182EB /* osito.png in Resources */,
 				E51632031C07E2660049A665 /* bntRegresar2.png in Resources */,
+				E5CA3C071C0918F500C02B1F /* menuNiveles.png in Resources */,
 				E51632061C07E2660049A665 /* botonEsta.png in Resources */,
 				E5CA3BFC1C0912DB00C02B1F /* n100.png in Resources */,
 				E51632151C07E4460049A665 /* 2pesos.png in Resources */,

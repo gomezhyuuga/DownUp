@@ -98,123 +98,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="niveles.png" id="cXV-Z6-Pcw">
-                                <rect key="frame" x="0.0" y="90" width="609" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuNiveles.png" id="cf0-Px-QWb">
+                                <rect key="frame" x="0.0" y="66" width="768" height="958"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iyH-VV-ETh">
-                                <rect key="frame" x="260" y="272" width="249" height="155"/>
+                            <view contentMode="scaleToFill" id="S9s-8n-rBI">
+                                <rect key="frame" x="274" y="355" width="220" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eS8-uq-rjI">
+                                        <rect key="frame" x="-5" y="33" width="230" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" image="botonN1.png"/>
+                                        <connections>
+                                            <segue destination="Icf-Bg-UCT" kind="push" id="Bf7-D3-YOG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AeP-0k-HT5">
+                                        <rect key="frame" x="-5" y="351" width="230" height="153"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" image="botonN3.png"/>
+                                        <connections>
+                                            <segue destination="tNb-Wj-eAg" kind="push" id="zLE-sO-tdc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="J5H-c9-UYx">
+                                        <rect key="frame" x="-5" y="191" width="230" height="152"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" image="botonN2.png"/>
+                                        <connections>
+                                            <segue destination="tNb-Wj-eAg" kind="push" id="s4C-6A-4Xt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <animations/>
-                                <state key="normal" image="botonN1.png"/>
-                                <connections>
-                                    <segue destination="Icf-Bg-UCT" kind="push" id="i38-fl-dJL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="j0B-y7-zjT">
-                                <rect key="frame" x="260" y="483" width="249" height="155"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <state key="normal" image="botonN2.png"/>
-                                <connections>
-                                    <segue destination="tNb-Wj-eAg" kind="push" id="lqI-J7-MUs"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bij-Uj-jwS">
-                                <rect key="frame" x="260" y="699" width="249" height="155"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <state key="normal" image="botonN3.png"/>
-                                <connections>
-                                    <segue destination="tNb-Wj-eAg" kind="push" id="MaS-PZ-g5R"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="igual.png" id="gpQ-Nb-oZ1">
-                                <rect key="frame" x="579" y="177" width="82" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signomas.png" id="t7w-f9-xnx">
-                                <rect key="frame" x="470" y="435" width="73" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signomas.png" id="uYr-rs-or0">
-                                <rect key="frame" x="675" y="331" width="73" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signomas.png" id="UGR-5L-PQG">
-                                <rect key="frame" x="79" y="753" width="47" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signomas.png" id="pkz-We-5Rb">
-                                <rect key="frame" x="212" y="219" width="73" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signomas.png" id="i3C-eq-m8m">
-                                <rect key="frame" x="12" y="489" width="73" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signomas.png" id="KwP-87-iAX">
-                                <rect key="frame" x="217" y="818" width="52" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signomas.png" id="QTa-CU-Smz">
-                                <rect key="frame" x="555" y="920" width="80" height="91"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signomas.png" id="U8R-Js-Wtx">
-                                <rect key="frame" x="714" y="652" width="54" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signomas.png" id="JaL-qQ-y0J">
-                                <rect key="frame" x="448" y="671" width="46" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signomas.png" id="5RV-tt-Kow">
-                                <rect key="frame" x="705" y="81" width="43" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="igual.png" id="3bv-Uz-4wS">
-                                <rect key="frame" x="600" y="546" width="70" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="igual.png" id="1yS-ac-jjx">
-                                <rect key="frame" x="116" y="353" width="55" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="igual.png" id="XjG-eE-QPH">
-                                <rect key="frame" x="26" y="891" width="82" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="igual.png" id="CgN-sB-8hn">
-                                <rect key="frame" x="440" y="851" width="54" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="igual.png" id="qXn-Im-XdT">
-                                <rect key="frame" x="616" y="753" width="73" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="igual.png" id="NL1-qI-7Bb">
-                                <rect key="frame" x="154" y="586" width="106" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -427,6 +350,11 @@ RXN0YWQFw61zdGljYXM
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n20.png" id="xuo-Kf-c8U">
                                 <rect key="frame" x="524" y="918" width="134" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instruccionesN1.png" id="kwz-LY-Tqq">
+                                <rect key="frame" x="0.0" y="185" width="768" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
@@ -861,13 +789,14 @@ RXN0YWQFw61zdGljYXM
         <image name="dulce.png" width="580" height="898"/>
         <image name="felicidades.png" width="707" height="695"/>
         <image name="first" width="30" height="30"/>
-        <image name="igual.png" width="192" height="177"/>
+        <image name="instruccionesN1.png" width="1420" height="178"/>
         <image name="intentaloDenuevo.png" width="730" height="446"/>
         <image name="ipad.png" width="256" height="256"/>
         <image name="lapiz.png" width="256" height="256"/>
         <image name="leche.png" width="698" height="1300"/>
         <image name="libro.png" width="128" height="128"/>
         <image name="manzana.png" width="256" height="256"/>
+        <image name="menuNiveles.png" width="1139" height="1516"/>
         <image name="monedaspng.png" width="1029" height="325"/>
         <image name="monito.png" width="533" height="714"/>
         <image name="n1.png" width="338" height="216"/>
@@ -878,16 +807,14 @@ RXN0YWQFw61zdGljYXM
         <image name="n5.png" width="338" height="216"/>
         <image name="n50.png" width="337" height="216"/>
         <image name="nivel1.png" width="730" height="127"/>
-        <image name="niveles.png" width="1029" height="183"/>
         <image name="osito.png" width="512" height="512"/>
         <image name="pan.png" width="256" height="256"/>
         <image name="pelota.png" width="256" height="256"/>
         <image name="second" width="30" height="30"/>
         <image name="selection.png" width="768" height="1024"/>
-        <image name="signomas.png" width="166" height="157"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="MaS-PZ-g5R"/>
+        <segue reference="zLE-sO-tdc"/>
         <segue reference="jvk-JD-3FL"/>
     </inferredMetricsTieBreakers>
 </document>
