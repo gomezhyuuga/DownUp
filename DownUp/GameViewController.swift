@@ -71,11 +71,9 @@ class GameViewController: UIViewController {
     }
 
     private func pay(quantity: Int) {
-        print("quantity: \(quantity)")
         let added = game.addQuantity(quantity)
         if (added) {
             selected[quantity] = selected[quantity]! + 1
-            print(selected)
             updateUI()
         } else {
             alert("Te pasaste de dinero")
