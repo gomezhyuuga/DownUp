@@ -16,6 +16,7 @@ class GameViewController: UIViewController {
     var selected: [Int] = [Int]()
     
     var startPanPosition: CGPoint?
+    var previousPanPosition: CGPoint?
     
     // Outlets
     @IBOutlet weak var lblPrice: UILabel!
@@ -114,21 +115,22 @@ class GameViewController: UIViewController {
     
     func moneyDragged(gesture: UIPanGestureRecognizer) {
         var pos = gesture.locationInView(moneyBagView)
+
         let view = gesture.view!
         var frame = view.frame
         
         switch gesture.state {
         case UIGestureRecognizerState.Began:
-            print("Start dragging")
             self.startPanPosition = view.frame.origin
+        case UIGestureRecognizerState.Changed:
+            frame.origin = pos
+            view.center = pos
         case UIGestureRecognizerState.Ended:
-            pos = self.startPanPosition!
+            frame.origin = self.startPanPosition!
+            view.frame = frame
         default:
             break
         }
-        print("Dragginng...")
-        frame.origin = pos
-        view.frame = frame
     }
 
     override func didReceiveMemoryWarning() {
