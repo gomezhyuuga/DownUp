@@ -11,5 +11,11 @@ import Foundation
 struct Item {
     let name: String
     let img: String
-    let price: Int = 0
+    var price: Int
+    
+    init(name: String, img: String) {
+        self.name = name
+        self.img = img
+        self.price = 0
+    }
 }

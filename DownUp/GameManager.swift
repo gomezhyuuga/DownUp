@@ -37,16 +37,19 @@ class GameManager {
 	}
     
     func selectItem(item: Item) -> Item? {
-        for i in objects {
-            if item.img == i.img {
-                return i
-            }
-        }
-        return Optional<Item>()
+//        for i in objects {
+//            if item.img == i.img {
+//                return i
+//            }
+//        }
+//        return Optional<Item>()
+        let randomIndex = Int(arc4random_uniform(UInt32(objects.count)))
+        return objects[randomIndex]
     }
     
     func startGame(itemToBuy: Item, level: Level) {
         self.itemToBuy = selectItem(itemToBuy)
+        self.itemToBuy?.price = getRandomPriceForLevel(level)
     }
     
     func gameHasFinished() -> Bool {
@@ -76,8 +79,12 @@ class GameManager {
         successful = true
     }
     
-    
+    private func getRandomPriceForLevel(level: Level) -> Int {
+        let multiplier: Int = level == Level.TWO ? 5 : 1
+        // Random number between 0 and 40 to create a price that 10 <= price <= 200
+        let randomNumber = Int(arc4random_uniform(UInt32(200)))
+        let price = 10 + randomNumber * multiplier
+        return price
+    }
     
 }
-
-
