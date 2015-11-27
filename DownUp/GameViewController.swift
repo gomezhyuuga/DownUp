@@ -15,11 +15,14 @@ class GameViewController: UIViewController {
     
     var selected: [Int] = [Int]()
     
+    var startPanPosition: CGPoint?
+    
     // Outlets
     @IBOutlet weak var lblPrice: UILabel!
     @IBOutlet weak var lblItemName: UILabel!
     @IBOutlet weak var lblMoneyLeft: UILabel!
     @IBOutlet weak var lblAcum: UILabel!
+    @IBOutlet weak var moneyBagView: UIView!
     
     @IBOutlet weak var lblQ1: UILabel!
 
@@ -92,8 +95,40 @@ class GameViewController: UIViewController {
         for _ in 1...110 {
             selected.append(0)
         }
-        var gesture: UIPanGestureRecognizer = UIPanGestureRecognizer(target: self, action: "moneyDragged:")
-
+        
+        // Add pan gesture to each button
+        var buttons = [UIButton]()
+        buttons.append(self.view.viewWithTag(1) as! UIButton)
+        buttons.append(self.view.viewWithTag(2) as! UIButton)
+        buttons.append(self.view.viewWithTag(5) as! UIButton)
+        buttons.append(self.view.viewWithTag(10) as! UIButton)
+        buttons.append(self.view.viewWithTag(20) as! UIButton)
+        buttons.append(self.view.viewWithTag(50) as! UIButton)
+        buttons.append(self.view.viewWithTag(100) as! UIButton)
+        for btn in buttons {
+            let gesture: UIPanGestureRecognizer = UIPanGestureRecognizer(target: self, action: "moneyDragged:")
+            btn.addGestureRecognizer(gesture)
+        }
+    }
+    
+    
+    func moneyDragged(gesture: UIPanGestureRecognizer) {
+        var pos = gesture.locationInView(moneyBagView)
+        let view = gesture.view!
+        var frame = view.frame
+        
+        switch gesture.state {
+        case UIGestureRecognizerState.Began:
+            print("Start dragging")
+            self.startPanPosition = view.frame.origin
+        case UIGestureRecognizerState.Ended:
+            pos = self.startPanPosition!
+        default:
+            break
+        }
+        print("Dragginng...")
+        frame.origin = pos
+        view.frame = frame
     }
 
     override func didReceiveMemoryWarning() {

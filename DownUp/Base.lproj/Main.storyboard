@@ -708,6 +708,7 @@ RXN0YWQFw61zdGljYXM
                         <outlet property="lblItemName" destination="9TJ-Uh-WHC" id="03Q-af-bQW"/>
                         <outlet property="lblMoneyLeft" destination="WFR-nH-14F" id="iXK-Mb-Qtt"/>
                         <outlet property="lblPrice" destination="una-SD-tgj" id="6yK-fx-Xcd"/>
+                        <outlet property="moneyBagView" destination="QXQ-fo-BgR" id="s43-dQ-s4j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yTV-7L-1Lp" sceneMemberID="firstResponder"/>
