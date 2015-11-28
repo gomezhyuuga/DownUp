@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  GameViewController.swift
 //  DownUp
 //
 //  Created by Fernando Gómez Herrera on 9/13/15.
@@ -19,6 +19,9 @@ class GameViewController: UIViewController {
     var startPanPosition: CGPoint?
     var previousPanPosition: CGPoint?
     
+    var start: NSDate!
+    var finish: NSDate!
+    
     // Outlets
     @IBOutlet weak var lblPrice: UILabel!
     @IBOutlet weak var lblItemName: UILabel!
@@ -33,6 +36,7 @@ class GameViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         game.startGame(GameViewController.item!, level: GameViewController.level!)
         setup()
+        self.start = NSDate()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -79,6 +83,9 @@ class GameViewController: UIViewController {
             alert("FAIL")
         }
         if (game.gameHasFinished()) {
+            self.finish = NSDate()
+            let timeTaken: Double = finish.timeIntervalSinceDate(start)
+            print("\(timeTaken) seconds.")
             alert("DONE")
         }
     }

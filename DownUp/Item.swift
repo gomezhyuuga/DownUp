@@ -1,5 +1,5 @@
 //
-//  Object.swift
+//  Item.swift
 //  DownUp
 //
 //  Created by Fernando Gómez Herrera on 10/12/15.
