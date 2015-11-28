@@ -23,9 +23,19 @@ class StatisticsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         // Do any additional setup after loading the view, typically from a nib.
+        initDummyValues()
         setTags();
         times = readData(selectedLevel);
         setupChart(daysOfTheWeek, values: times);
+    }
+    
+    // WARNING: This function is solely for testing purposes. Must be deleted once the app hits its completion state!!!!
+    private func initDummyValues() {
+        NSUserDefaults.standardUserDefaults().setDouble(9.8, forKey: "Level2Monday");
+        NSUserDefaults.standardUserDefaults().setDouble(7.5, forKey: "Level2Tuesday");
+        NSUserDefaults.standardUserDefaults().setDouble(11.2, forKey: "Level2Wednesday");
+        NSUserDefaults.standardUserDefaults().setDouble(14.9, forKey: "Level2Thursday");
+        NSUserDefaults.standardUserDefaults().setDouble(5.7, forKey: "Level2Friday");
     }
     
     private func setTags() {
@@ -54,15 +64,31 @@ class StatisticsViewController: UIViewController {
     }
     
     private func readData(level: Int) -> [Double] {
+        let monKey = "Level2Monday";
+        let tueKey = "Level2Tuesday";
+        let wedKey = "Level2Wednesday";
+        let thuKey = "Level2Thursday";
+        let friKey = "Level2Friday";
+        
         var levelTimes: [Double] = [];
         switch (level) {
         case 1:
             levelTimes = [1.0, 1.0, 1.0, 1.0, 1.0];
             break;
         case 2:
-            let monday = NSUserDefaults.standardUserDefaults().doubleForKey("Level2Monday");
             levelTimes = [2.0, 2.0, 2.0, 2.0, 2.0];
+            
+            let monday = NSUserDefaults.standardUserDefaults().doubleForKey(monKey);
+            let tuesday = NSUserDefaults.standardUserDefaults().doubleForKey(tueKey);
+            let wednesday = NSUserDefaults.standardUserDefaults().doubleForKey(wedKey);
+            let thursday = NSUserDefaults.standardUserDefaults().doubleForKey(thuKey);
+            let friday = NSUserDefaults.standardUserDefaults().doubleForKey(friKey);
+            
             levelTimes[0] = monday;
+            levelTimes[1] = tuesday;
+            levelTimes[2] = wednesday;
+            levelTimes[3] = thursday;
+            levelTimes[4] = friday;
             break;
         case 3:
             levelTimes = [3.0, 3.0, 3.0, 3.0, 3.0];

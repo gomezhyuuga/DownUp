@@ -21,6 +21,7 @@ class GameViewController: UIViewController {
     
     var start: NSDate!
     var finish: NSDate!
+    var today: Int = 0
     
     // Outlets
     @IBOutlet weak var lblPrice: UILabel!
@@ -36,11 +37,21 @@ class GameViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         game.startGame(GameViewController.item!, level: GameViewController.level!)
         setup()
+        getDayOfTheWeek()
+        print("\(self.today)")
         self.start = NSDate()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    private func getDayOfTheWeek() {
+        let dateNow = NSDate()
+        let calendar = NSCalendar(calendarIdentifier: NSGregorianCalendar)
+        let dateComponents = calendar?.components(.Weekday, fromDate: dateNow)
+        let weekday = dateComponents?.weekday
+        self.today = weekday!
     }
     
     private func setup() {
@@ -85,8 +96,35 @@ class GameViewController: UIViewController {
         if (game.gameHasFinished()) {
             self.finish = NSDate()
             let timeTaken: Double = finish.timeIntervalSinceDate(start)
+            var prefsKey: String = ""
             
-            NSUserDefaults.standardUserDefaults().setDouble(timeTaken, forKey: "Level2Monday")
+            switch(self.today) {
+            case 1:
+                prefsKey = "Level2Sunday"
+                break
+            case 2:
+                prefsKey = "Level2Monday"
+                break
+            case 3:
+                prefsKey = "Level2Tuesday"
+                break
+            case 4:
+                prefsKey = "Level2Wednesday"
+                break
+            case 5:
+                prefsKey = "Level2Thursday"
+                break
+            case 6:
+                prefsKey = "Level2Friday"
+                break
+            case 7:
+                prefsKey = "Level2Saturday"
+                break
+            default:
+                break
+            }
+            
+            NSUserDefaults.standardUserDefaults().setDouble(timeTaken, forKey: prefsKey)
             
             print("\(timeTaken) seconds.")
             alert("DONE")
