@@ -85,6 +85,9 @@ class GameViewController: UIViewController {
         if (game.gameHasFinished()) {
             self.finish = NSDate()
             let timeTaken: Double = finish.timeIntervalSinceDate(start)
+            
+            NSUserDefaults.standardUserDefaults().setFloat(Float(timeTaken), forKey: "Level2Monday")
+            
             print("\(timeTaken) seconds.")
             alert("DONE")
         }

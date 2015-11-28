@@ -60,7 +60,9 @@ class StatisticsViewController: UIViewController {
             levelTimes = [1.0, 1.0, 1.0, 1.0, 1.0];
             break;
         case 2:
+            let monday = NSUserDefaults.standardUserDefaults().doubleForKey("Level2Monday");
             levelTimes = [2.0, 2.0, 2.0, 2.0, 2.0];
+            levelTimes[0] = Double(monday);
             break;
         case 3:
             levelTimes = [3.0, 3.0, 3.0, 3.0, 3.0];
