@@ -23,7 +23,6 @@ class StatisticsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         // Do any additional setup after loading the view, typically from a nib.
-        
         setTags();
         times = readData(selectedLevel);
         setupChart(daysOfTheWeek, values: times);
@@ -55,24 +54,41 @@ class StatisticsViewController: UIViewController {
     }
     
     private func readData(level: Int) -> [Double] {
-        let levelTimes = [1.0, 2.0, 3.0, 4.0, 5.0];
+        var levelTimes: [Double] = [];
+        switch (level) {
+        case 1:
+            levelTimes = [1.0, 1.0, 1.0, 1.0, 1.0];
+            break;
+        case 2:
+            levelTimes = [2.0, 2.0, 2.0, 2.0, 2.0];
+            break;
+        case 3:
+            levelTimes = [3.0, 3.0, 3.0, 3.0, 3.0];
+            break;
+        default:
+            levelTimes = [0.0, 0.0, 0.0, 0.0, 0.0];
+            break;
+        }
         return levelTimes;
     }
 
     @IBAction func pressedLvButton(sender: UIButton) {
         switch (sender.tag) {
-            case 1:
-                self.selectedLevel = 1;
-                break;
-            case 2:
-                self.selectedLevel = 2;
-                break;
-            case 3:
-                self.selectedLevel = 3;
-                break;
-            default:
-                break;
+        case 1:
+            self.selectedLevel = 1;
+            break;
+        case 2:
+            self.selectedLevel = 2;
+            break;
+        case 3:
+            self.selectedLevel = 3;
+            break;
+        default:
+            break;
         }
+        
+        self.times = readData(self.selectedLevel);
+        setupChart(daysOfTheWeek, values: self.times);
         print("Picked Level was \(selectedLevel)");
     }
     
