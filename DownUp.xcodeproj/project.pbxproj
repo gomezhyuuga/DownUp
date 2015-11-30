@@ -228,6 +228,22 @@
 			name = prototype;
 			sourceTree = "<group>";
 		};
+		18C3E4801C0C44DE00F195EF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18D9E6131C08847300AF5E3F /* AlertViewController.swift */,
+				E525AA241C07FDF400191A5E /* LevelsViewController.swift */,
+				18C3E4771C0C310D00F195EF /* HelpViewController.swift */,
+				18DE69AA1BA6584600FC3B71 /* GameViewController.swift */,
+				E5DD88F41C0BF51900612CAD /* LOneViewController.swift */,
+				18DE69AC1BA6584600FC3B71 /* StatisticsViewController.swift */,
+				E525AA221C07FDCE00191A5E /* MainMenuViewController.swift */,
+				18DE69CA1BA65A8500FC3B71 /* AboutViewController.swift */,
+				18FB6C7E1BFF6E45000FA72F /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		18DA83D61C07DCB3000FBC7D /* fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,24 +275,16 @@
 		18DE69A51BA6584500FC3B71 /* DownUp */ = {
 			isa = PBXGroup;
 			children = (
-				E525AA241C07FDF400191A5E /* LevelsViewController.swift */,
-				18C3E4771C0C310D00F195EF /* HelpViewController.swift */,
-				18DE69AA1BA6584600FC3B71 /* GameViewController.swift */,
-				E5DD88F41C0BF51900612CAD /* LOneViewController.swift */,
-				18DE69AC1BA6584600FC3B71 /* StatisticsViewController.swift */,
-				E525AA221C07FDCE00191A5E /* MainMenuViewController.swift */,
-				18DE69CA1BA65A8500FC3B71 /* AboutViewController.swift */,
-				18FB6C7E1BFF6E45000FA72F /* ViewController.swift */,
-				18DE69A81BA6584600FC3B71 /* AppDelegate.swift */,
-				18DE69AE1BA6584600FC3B71 /* Main.storyboard */,
-				186E93201C087134002D81D9 /* Utils.swift */,
-				18DE69B11BA6584600FC3B71 /* Images.xcassets */,
-				18DE69B31BA6584600FC3B71 /* LaunchScreen.xib */,
 				18DE69A61BA6584500FC3B71 /* Supporting Files */,
+				18C3E4801C0C44DE00F195EF /* ViewControllers */,
+				18DE69AE1BA6584600FC3B71 /* Main.storyboard */,
+				18DE69B31BA6584600FC3B71 /* LaunchScreen.xib */,
+				18DE69B11BA6584600FC3B71 /* Images.xcassets */,
+				18DE69A81BA6584600FC3B71 /* AppDelegate.swift */,
+				186E93201C087134002D81D9 /* Utils.swift */,
 				18FF67601BCC5B880090110F /* Bill.swift */,
 				18FF67621BCC5EF60090110F /* GameManager.swift */,
 				18FF67681BCC60010090110F /* Item.swift */,
-				18D9E6131C08847300AF5E3F /* AlertViewController.swift */,
 			);
 			path = DownUp;
 			sourceTree = "<group>";
