@@ -37,6 +37,7 @@ class GameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        AlertViewController.navController = navigationController
         // Do any additional setup after loading the view, typically from a nib.
         game.startGame(GameViewController.item!, level: GameViewController.level!)
         setup()
