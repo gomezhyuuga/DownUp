@@ -16,6 +16,9 @@ class StatisticsViewController: UIViewController {
     @IBOutlet weak var Level2Button: UIButton!
     @IBOutlet weak var Level3Button: UIButton!
     
+    @IBAction func back(sender: AnyObject) {
+        navigationController!.popViewControllerAnimated(true)
+    }
     var daysOfTheWeek: [String] = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"];
     var times: [Double] = [];
     var selectedLevel: Int = 0;
