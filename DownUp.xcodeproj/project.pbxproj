@@ -271,16 +271,16 @@
 		18DE69A51BA6584500FC3B71 /* DownUp */ = {
 			isa = PBXGroup;
 			children = (
-				18DE69A81BA6584600FC3B71 /* AppDelegate.swift */,
 				18DE69AA1BA6584600FC3B71 /* GameViewController.swift */,
 				E5DD88F41C0BF51900612CAD /* LOneViewController.swift */,
 				18DE69AC1BA6584600FC3B71 /* StatisticsViewController.swift */,
 				E525AA221C07FDCE00191A5E /* MainMenuViewController.swift */,
 				E525AA241C07FDF400191A5E /* LevelsViewController.swift */,
 				18DE69CA1BA65A8500FC3B71 /* AboutViewController.swift */,
+				18FB6C7E1BFF6E45000FA72F /* ViewController.swift */,
+				18DE69A81BA6584600FC3B71 /* AppDelegate.swift */,
 				18DE69AE1BA6584600FC3B71 /* Main.storyboard */,
 				186E93201C087134002D81D9 /* Utils.swift */,
-				18FB6C7E1BFF6E45000FA72F /* ViewController.swift */,
 				18DE69B11BA6584600FC3B71 /* Images.xcassets */,
 				18DE69B31BA6584600FC3B71 /* LaunchScreen.xib */,
 				18DE69A61BA6584500FC3B71 /* Supporting Files */,
@@ -773,10 +773,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DownUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DownUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -787,10 +789,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DownUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.DownUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
