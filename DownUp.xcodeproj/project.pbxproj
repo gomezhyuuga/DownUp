@@ -25,13 +25,6 @@
 		18DE69B51BA6584600FC3B71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DE69B31BA6584600FC3B71 /* LaunchScreen.xib */; };
 		18DE69C11BA6584600FC3B71 /* DownUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE69C01BA6584600FC3B71 /* DownUpTests.swift */; };
 		18DE69CB1BA65A8500FC3B71 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE69CA1BA65A8500FC3B71 /* AboutViewController.swift */; };
-		18DE69D91BA6639900FC3B71 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DE69D21BA6639900FC3B71 /* 1.jpg */; };
-		18DE69DA1BA6639900FC3B71 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DE69D31BA6639900FC3B71 /* 2.jpg */; };
-		18DE69DB1BA6639900FC3B71 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DE69D41BA6639900FC3B71 /* 5.jpg */; };
-		18DE69DC1BA6639900FC3B71 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DE69D51BA6639900FC3B71 /* 10.jpg */; };
-		18DE69DD1BA6639900FC3B71 /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DE69D61BA6639900FC3B71 /* 20.jpg */; };
-		18DE69DE1BA6639900FC3B71 /* 50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DE69D71BA6639900FC3B71 /* 50.jpg */; };
-		18DE69DF1BA6639900FC3B71 /* 100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DE69D81BA6639900FC3B71 /* 100.jpg */; };
 		18FB6C7F1BFF6E45000FA72F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB6C7E1BFF6E45000FA72F /* ViewController.swift */; };
 		18FF67611BCC5B880090110F /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF67601BCC5B880090110F /* Bill.swift */; };
 		18FF67631BCC5EF60090110F /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF67621BCC5EF60090110F /* GameManager.swift */; };
@@ -145,13 +138,6 @@
 		18DE69BF1BA6584600FC3B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DE69C01BA6584600FC3B71 /* DownUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownUpTests.swift; sourceTree = "<group>"; };
 		18DE69CA1BA65A8500FC3B71 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		18DE69D21BA6639900FC3B71 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		18DE69D31BA6639900FC3B71 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		18DE69D41BA6639900FC3B71 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
-		18DE69D51BA6639900FC3B71 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
-		18DE69D61BA6639900FC3B71 /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
-		18DE69D71BA6639900FC3B71 /* 50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50.jpg; sourceTree = "<group>"; };
-		18DE69D81BA6639900FC3B71 /* 100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100.jpg; sourceTree = "<group>"; };
 		18FB6C7E1BFF6E45000FA72F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18FF67601BCC5B880090110F /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		18FF67621BCC5EF60090110F /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
@@ -329,23 +315,8 @@
 				18DA83D61C07DCB3000FBC7D /* fonts */,
 				18FF676A1BCC60370090110F /* objects */,
 				182F2BE41BA6738C00F788E5 /* prototype */,
-				18DE69D11BA6639300FC3B71 /* bills */,
 			);
 			name = assets;
-			sourceTree = "<group>";
-		};
-		18DE69D11BA6639300FC3B71 /* bills */ = {
-			isa = PBXGroup;
-			children = (
-				18DE69D21BA6639900FC3B71 /* 1.jpg */,
-				18DE69D31BA6639900FC3B71 /* 2.jpg */,
-				18DE69D41BA6639900FC3B71 /* 5.jpg */,
-				18DE69D51BA6639900FC3B71 /* 10.jpg */,
-				18DE69D61BA6639900FC3B71 /* 20.jpg */,
-				18DE69D71BA6639900FC3B71 /* 50.jpg */,
-				18DE69D81BA6639900FC3B71 /* 100.jpg */,
-			);
-			name = bills;
 			sourceTree = "<group>";
 		};
 		18FF676A1BCC60370090110F /* objects */ = {
@@ -550,7 +521,6 @@
 			files = (
 				E5CA3BFB1C0912DB00C02B1F /* n50.png in Resources */,
 				18DA83D21C07DCAB000FBC7D /* Anna-Roman.otf in Resources */,
-				18DE69DB1BA6639900FC3B71 /* 5.jpg in Resources */,
 				E525AA1E1C07F96C00191A5E /* monedaspng.png in Resources */,
 				E5B51DA01BD5424F008182EB /* ipad.png in Resources */,
 				18DE69B01BA6584600FC3B71 /* Main.storyboard in Resources */,
@@ -567,10 +537,8 @@
 				E525AA181C07F64F00191A5E /* globito.png in Resources */,
 				E5CA3BF91C0912DB00C02B1F /* n5.png in Resources */,
 				E5423C0E1C08700300AC2635 /* Recuerda.png in Resources */,
-				18DE69DF1BA6639900FC3B71 /* 100.jpg in Resources */,
 				E5CA3BFA1C0912DB00C02B1F /* n20.png in Resources */,
 				E5B51DA71BD5424F008182EB /* pelota.png in Resources */,
-				18DE69DA1BA6639900FC3B71 /* 2.jpg in Resources */,
 				E5CA3BF81C0912DB00C02B1F /* n2.png in Resources */,
 				E516321B1C07E45F0049A665 /* monito.png in Resources */,
 				E516320A1C07E2660049A665 /* botonN3.png in Resources */,
@@ -579,10 +547,7 @@
 				E5DD88F71C0C100000612CAD /* instruccionesN1.png in Resources */,
 				182F2BED1BA67AA200F788E5 /* selection.png in Resources */,
 				E51632051C07E2660049A665 /* botonAyuda.png in Resources */,
-				18DE69DC1BA6639900FC3B71 /* 10.jpg in Resources */,
-				18DE69DD1BA6639900FC3B71 /* 20.jpg in Resources */,
 				E5423BF71C080A5D00AC2635 /* Titulo.png in Resources */,
-				18DE69D91BA6639900FC3B71 /* 1.jpg in Resources */,
 				E5B51DA51BD5424F008182EB /* osito.png in Resources */,
 				E51632031C07E2660049A665 /* bntRegresar2.png in Resources */,
 				E5CA3C071C0918F500C02B1F /* menuNiveles.png in Resources */,
@@ -609,7 +574,6 @@
 				182F2BEA1BA67AA200F788E5 /* about.png in Resources */,
 				E51632171C07E4460049A665 /* 10pesos.png in Resources */,
 				E51632041C07E2660049A665 /* bntRegresar3.png in Resources */,
-				18DE69DE1BA6639900FC3B71 /* 50.jpg in Resources */,
 				E51632071C07E2660049A665 /* botonJugar.png in Resources */,
 				182F2BEE1BA67AA200F788E5 /* statistics.png in Resources */,
 				E51632081C07E2660049A665 /* botonN1.png in Resources */,
