@@ -25,6 +25,9 @@
 		18DE69B51BA6584600FC3B71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DE69B31BA6584600FC3B71 /* LaunchScreen.xib */; };
 		18DE69C11BA6584600FC3B71 /* DownUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE69C01BA6584600FC3B71 /* DownUpTests.swift */; };
 		18DE69CB1BA65A8500FC3B71 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE69CA1BA65A8500FC3B71 /* AboutViewController.swift */; };
+		18F0F8851C0CC84000D1F18C /* 1peso.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F0F8821C0CC84000D1F18C /* 1peso.png */; };
+		18F0F8861C0CC84000D1F18C /* 2pesos.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F0F8831C0CC84000D1F18C /* 2pesos.png */; };
+		18F0F8871C0CC84000D1F18C /* 5pesos.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F0F8841C0CC84000D1F18C /* 5pesos.png */; };
 		18FB6C7F1BFF6E45000FA72F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB6C7E1BFF6E45000FA72F /* ViewController.swift */; };
 		18FF67611BCC5B880090110F /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF67601BCC5B880090110F /* Bill.swift */; };
 		18FF67631BCC5EF60090110F /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF67621BCC5EF60090110F /* GameManager.swift */; };
@@ -40,9 +43,6 @@
 		E516320A1C07E2660049A665 /* botonN3.png in Resources */ = {isa = PBXBuildFile; fileRef = E51632001C07E2660049A665 /* botonN3.png */; };
 		E516320B1C07E2660049A665 /* botonRegresar.png in Resources */ = {isa = PBXBuildFile; fileRef = E51632011C07E2660049A665 /* botonRegresar.png */; };
 		E516320C1C07E2660049A665 /* botonSalir.png in Resources */ = {isa = PBXBuildFile; fileRef = E51632021C07E2660049A665 /* botonSalir.png */; };
-		E51632141C07E4460049A665 /* 1peso.png in Resources */ = {isa = PBXBuildFile; fileRef = E516320E1C07E4460049A665 /* 1peso.png */; };
-		E51632151C07E4460049A665 /* 2pesos.png in Resources */ = {isa = PBXBuildFile; fileRef = E516320F1C07E4460049A665 /* 2pesos.png */; };
-		E51632161C07E4460049A665 /* 5pesos.png in Resources */ = {isa = PBXBuildFile; fileRef = E51632101C07E4460049A665 /* 5pesos.png */; };
 		E51632171C07E4460049A665 /* 10pesos.png in Resources */ = {isa = PBXBuildFile; fileRef = E51632111C07E4460049A665 /* 10pesos.png */; };
 		E51632181C07E4460049A665 /* 20pesos.png in Resources */ = {isa = PBXBuildFile; fileRef = E51632121C07E4460049A665 /* 20pesos.png */; };
 		E51632191C07E4460049A665 /* 100pesos.png in Resources */ = {isa = PBXBuildFile; fileRef = E51632131C07E4460049A665 /* 100pesos.png */; };
@@ -159,6 +159,9 @@
 		18DE69BF1BA6584600FC3B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DE69C01BA6584600FC3B71 /* DownUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownUpTests.swift; sourceTree = "<group>"; };
 		18DE69CA1BA65A8500FC3B71 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		18F0F8821C0CC84000D1F18C /* 1peso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1peso.png; sourceTree = "<group>"; };
+		18F0F8831C0CC84000D1F18C /* 2pesos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2pesos.png; sourceTree = "<group>"; };
+		18F0F8841C0CC84000D1F18C /* 5pesos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5pesos.png; sourceTree = "<group>"; };
 		18FB6C7E1BFF6E45000FA72F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18FF67601BCC5B880090110F /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		18FF67621BCC5EF60090110F /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
@@ -174,9 +177,6 @@
 		E51632001C07E2660049A665 /* botonN3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botonN3.png; sourceTree = "<group>"; };
 		E51632011C07E2660049A665 /* botonRegresar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botonRegresar.png; sourceTree = "<group>"; };
 		E51632021C07E2660049A665 /* botonSalir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botonSalir.png; sourceTree = "<group>"; };
-		E516320E1C07E4460049A665 /* 1peso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1peso.png; sourceTree = "<group>"; };
-		E516320F1C07E4460049A665 /* 2pesos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2pesos.png; sourceTree = "<group>"; };
-		E51632101C07E4460049A665 /* 5pesos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5pesos.png; sourceTree = "<group>"; };
 		E51632111C07E4460049A665 /* 10pesos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10pesos.png; sourceTree = "<group>"; };
 		E51632121C07E4460049A665 /* 20pesos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20pesos.png; sourceTree = "<group>"; };
 		E51632131C07E4460049A665 /* 100pesos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100pesos.png; sourceTree = "<group>"; };
@@ -417,10 +417,10 @@
 		E516320D1C07E41A0049A665 /* monedasybilletes */ = {
 			isa = PBXGroup;
 			children = (
+				18F0F8821C0CC84000D1F18C /* 1peso.png */,
+				18F0F8831C0CC84000D1F18C /* 2pesos.png */,
+				18F0F8841C0CC84000D1F18C /* 5pesos.png */,
 				E516321C1C07E59C0049A665 /* 50peso.png */,
-				E516320E1C07E4460049A665 /* 1peso.png */,
-				E516320F1C07E4460049A665 /* 2pesos.png */,
-				E51632101C07E4460049A665 /* 5pesos.png */,
 				E51632111C07E4460049A665 /* 10pesos.png */,
 				E51632121C07E4460049A665 /* 20pesos.png */,
 				E51632131C07E4460049A665 /* 100pesos.png */,
@@ -558,7 +558,6 @@
 				18DE69B01BA6584600FC3B71 /* Main.storyboard in Resources */,
 				E525AA1F1C07F96C00191A5E /* niveles.png in Resources */,
 				E5DD890B1C0C4BCB00612CAD /* lapiz.png in Resources */,
-				E51632161C07E4460049A665 /* 5pesos.png in Resources */,
 				E5DD89071C0C4B8600612CAD /* dulce.png in Resources */,
 				E5423C061C0818C300AC2635 /* signomas.png in Resources */,
 				E5B51D951BD54214008182EB /* chocolate.png in Resources */,
@@ -578,17 +577,18 @@
 				E51632051C07E2660049A665 /* botonAyuda.png in Resources */,
 				E5DD89111C0C4BF900612CAD /* manzana.png in Resources */,
 				E5DD89031C0C4AB400612CAD /* leche.png in Resources */,
+				18F0F8871C0CC84000D1F18C /* 5pesos.png in Resources */,
+				18F0F8851C0CC84000D1F18C /* 1peso.png in Resources */,
 				E5423BF71C080A5D00AC2635 /* Titulo.png in Resources */,
 				E5DD890D1C0C4BDD00612CAD /* libro.png in Resources */,
 				E51632031C07E2660049A665 /* bntRegresar2.png in Resources */,
 				E5CA3C071C0918F500C02B1F /* menuNiveles.png in Resources */,
 				E51632061C07E2660049A665 /* botonEsta.png in Resources */,
 				E5CA3BFC1C0912DB00C02B1F /* n100.png in Resources */,
-				E51632151C07E4460049A665 /* 2pesos.png in Resources */,
+				18F0F8861C0CC84000D1F18C /* 2pesos.png in Resources */,
 				E5DD890F1C0C4BEC00612CAD /* pan.png in Resources */,
 				E5423C0C1C084A6C00AC2635 /* intentaloDenuevo.png in Resources */,
 				E516321D1C07E59C0049A665 /* 50peso.png in Resources */,
-				E51632141C07E4460049A665 /* 1peso.png in Resources */,
 				E51632181C07E4460049A665 /* 20pesos.png in Resources */,
 				182F2BEB1BA67AA200F788E5 /* buying.png in Resources */,
 				E5DD89051C0C4B5300612CAD /* osito.png in Resources */,
