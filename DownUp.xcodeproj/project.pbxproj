@@ -13,7 +13,6 @@
 		182F2BED1BA67AA200F788E5 /* selection.png in Resources */ = {isa = PBXBuildFile; fileRef = 182F2BE81BA67AA200F788E5 /* selection.png */; };
 		182F2BEE1BA67AA200F788E5 /* statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 182F2BE91BA67AA200F788E5 /* statistics.png */; };
 		186E93211C087134002D81D9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E93201C087134002D81D9 /* Utils.swift */; };
-		1878E0931C0C485E005CB114 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51937C9F1C0795520085B471 /* Charts.framework */; };
 		1878E0941C0C485E005CB114 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51937C9F1C0795520085B471 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18C3E4781C0C310D00F195EF /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3E4771C0C310D00F195EF /* HelpViewController.swift */; };
 		18D9E6141C08847300AF5E3F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9E6131C08847300AF5E3F /* AlertViewController.swift */; };
@@ -226,7 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				51937CA41C0795E00085B471 /* Charts.framework in Frameworks */,
-				1878E0931C0C485E005CB114 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,7 +484,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Fernando Gómez";
 				TargetAttributes = {
 					18DE69A21BA6584500FC3B71 = {
