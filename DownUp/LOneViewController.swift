@@ -31,9 +31,13 @@ class LOneViewController: UIViewController {
     @IBOutlet weak var imageRan: UIImageView!
     @IBOutlet var Buttons: [UIButton]!
     
+    @IBAction func back(sender: AnyObject) {
+        navigationController!.popViewControllerAnimated(true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        AlertViewController.navController = navigationController
         getDayOfTheWeek()
         print("\(self.today)")
         self.start = NSDate()

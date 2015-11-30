@@ -23,7 +23,11 @@ class ViewController: UIViewController {
     ]
     
     static var level: Level = Level.TWO
-    
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBAction func back(sender: AnyObject) {
+        navigationController!.popViewControllerAnimated(true)
+    }
+
     override func viewWillAppear(animated: Bool) {
         objects.shuffleInPlace()
         for i in 1...10 {
@@ -37,6 +41,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.lblTitle.text = "NIVEL \(ViewController.level.rawValue)"
     }
     
     override func didReceiveMemoryWarning() {

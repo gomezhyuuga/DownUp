@@ -9,22 +9,31 @@
 import UIKit
 
 class LevelsViewController: UIViewController {
-
+    
+    @IBAction func back(sender: AnyObject) {
+        navigationController?.popViewControllerAnimated(true);
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if sender?.tag == 2 {
+        switch sender!.tag {
+        case 1:
+            ViewController.level = Level.ONE
+        case 2:
             ViewController.level = Level.TWO
-        } else if sender?.tag == 3 {
+        case 3:
             ViewController.level = Level.THREE
+        default:
+            break;
         }
     }
 }

@@ -31,9 +31,13 @@ class GameViewController: UIViewController {
     @IBOutlet weak var moneyBagView: UIView!
     @IBOutlet weak var dropZoneView: UIView!
     @IBOutlet weak var imgItem: UIImageView!
+    @IBAction func back(sender: AnyObject) {
+        navigationController!.popViewControllerAnimated(true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        AlertViewController.navController = navigationController
         // Do any additional setup after loading the view, typically from a nib.
         game.startGame(GameViewController.item!, level: GameViewController.level!)
         setup()

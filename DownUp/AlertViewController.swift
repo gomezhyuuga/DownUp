@@ -9,10 +9,26 @@
 import Foundation
 import UIKit
 
+enum ActionButton: Int {
+    case Back = 1
+    case Menu = 2
+}
+
 class AlertViewController : UIViewController {
+    static var navController: UINavigationController?
     
     @IBAction func dismissAlert(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+        if sender.tag! == ActionButton.Back.rawValue {
+            self.dismissViewControllerAnimated(true, completion: nil)
+        } else {
+            if let nav = AlertViewController.navController {
+                self.dismissViewControllerAnimated(false, completion: { () -> Void in
+                    nav.popToRootViewControllerAnimated(true)
+                })
+            } else {
+                self.dismissViewControllerAnimated(true, completion: nil)
+            }
+        }
     }
     
     override func viewDidLoad() {

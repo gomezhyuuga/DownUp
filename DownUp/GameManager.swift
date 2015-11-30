@@ -8,8 +8,8 @@
 
 import Foundation
 
-enum Level {
-    case ONE, TWO, THREE
+enum Level: Int {
+    case ONE = 1, TWO, THREE
 }
 
 class GameManager {
