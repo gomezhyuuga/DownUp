@@ -216,7 +216,7 @@ RXN0YWQFw61zdGljYXM
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <tabBarItem key="tabBarItem" title="Estadísticas" image="BE900B03-0A7A-423B-9BE3-BB808DE12822" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Estadísticas" image="8F33F823-AD35-499F-A43C-48F6D8A4AAE9" id="cPa-gy-q4n"/>
                     <navigationItem key="navigationItem" id="sFf-DT-K6L"/>
                     <connections>
                         <outlet property="Level1Button" destination="d9T-gB-dls" id="DAI-lI-Sja"/>
@@ -428,8 +428,8 @@ RXN0YWQFw61zdGljYXM
                         <outletCollection property="Buttons" destination="I3W-QQ-b3c" collectionClass="NSMutableArray" id="vqY-2J-UCo"/>
                         <outletCollection property="Buttons" destination="9vg-JD-7s0" collectionClass="NSMutableArray" id="2gH-If-IBq"/>
                         <outletCollection property="Buttons" destination="hJb-yg-yab" collectionClass="NSMutableArray" id="uNz-7L-CIB"/>
-                        <segue destination="IQZ-j4-65L" kind="modal" identifier="intentalo" id="rEN-Wo-cqV"/>
-                        <segue destination="37i-6i-dcn" kind="modal" identifier="felicidades" id="dz2-gw-xjN"/>
+                        <segue destination="IQZ-j4-65L" kind="modal" identifier="intentalo" modalTransitionStyle="coverVertical" id="rEN-Wo-cqV"/>
+                        <segue destination="37i-6i-dcn" kind="modal" identifier="felicidades" modalTransitionStyle="coverVertical" id="dz2-gw-xjN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SjV-aq-nT3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -756,7 +756,7 @@ RXN0YWQFw61zdGljYXM
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Boh-j1-SvD">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Boh-j1-SvD">
                                 <rect key="frame" x="31" y="164" width="707" height="695"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
@@ -783,7 +783,7 @@ RXN0YWQFw61zdGljYXM
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6cG-gO-OwG">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6cG-gO-OwG">
                                 <rect key="frame" x="31" y="164" width="707" height="695"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
@@ -832,8 +832,7 @@ RXN0YWQFw61zdGljYXM
         <image name="20.jpg" width="316" height="160"/>
         <image name="5.jpg" width="272" height="268"/>
         <image name="50.jpg" width="2000" height="1058"/>
-        <image name="AcercaDe.png" width="1131" height="1139"/>
-        <image name="BE900B03-0A7A-423B-9BE3-BB808DE12822" width="30" height="30">
+        <image name="8F33F823-AD35-499F-A43C-48F6D8A4AAE9" width="30" height="30">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGQkNYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QDwcI
 ERYbHCUmJygwMzY8P1UkbnVsbNQJCgsMDQ4PEFYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVwc1dOU0Nv
@@ -889,6 +888,7 @@ TwBYAF8AbABzAHsAfQCCAIQAhgCLAJYAmACaAJwAoQCkAKYAqACqAKwAtwC+ANAA4wDtAO8A8QDzAPUA
 ZAtpAAAAAAAAAgEAAAAAAAAARgAAAAAAAAAAAAAAAAAAC2s
 </mutableData>
         </image>
+        <image name="AcercaDe.png" width="1131" height="1139"/>
         <image name="Recuerda.png" width="948" height="1477"/>
         <image name="Titulo.png" width="1029" height="152"/>
         <image name="back" width="93" height="81"/>

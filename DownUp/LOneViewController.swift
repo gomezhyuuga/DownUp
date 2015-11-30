@@ -37,6 +37,7 @@ class LOneViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        AlertViewController.navController = navigationController
         getDayOfTheWeek()
         print("\(self.today)")
         self.start = NSDate()
