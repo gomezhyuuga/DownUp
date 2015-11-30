@@ -68,7 +68,6 @@
 		E5423C0C1C084A6C00AC2635 /* intentaloDenuevo.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423C0A1C084A6C00AC2635 /* intentaloDenuevo.png */; };
 		E5423C0E1C08700300AC2635 /* Recuerda.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423C0D1C08700300AC2635 /* Recuerda.png */; };
 		E5423C101C0873D100AC2635 /* nivel1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5423C0F1C0873D100AC2635 /* nivel1.png */; };
-		E57A225C1C0A715700F6D887 /* LevelOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57A225B1C0A715700F6D887 /* LevelOneViewController.swift */; };
 		E5B51D951BD54214008182EB /* chocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D941BD54214008182EB /* chocolate.png */; };
 		E5B51D9F1BD5424F008182EB /* dulce.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D961BD5424F008182EB /* dulce.png */; };
 		E5B51DA01BD5424F008182EB /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B51D971BD5424F008182EB /* ipad.png */; };
@@ -85,9 +84,10 @@
 		E5CA3BFB1C0912DB00C02B1F /* n50.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3BF51C0912DB00C02B1F /* n50.png */; };
 		E5CA3BFC1C0912DB00C02B1F /* n100.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3BF61C0912DB00C02B1F /* n100.png */; };
 		E5CA3C011C09141E00C02B1F /* n10.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3C001C09141E00C02B1F /* n10.png */; };
-		E5CA3C031C0915FC00C02B1F /* instruccionesN1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3C021C0915FC00C02B1F /* instruccionesN1.png */; };
 		E5CA3C071C0918F500C02B1F /* menuNiveles.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3C061C0918F500C02B1F /* menuNiveles.png */; };
 		E5DD88F31C0BDC2D00612CAD /* teclogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DD88F21C0BDC2D00612CAD /* teclogo.png */; };
+		E5DD88F51C0BF51900612CAD /* LOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DD88F41C0BF51900612CAD /* LOneViewController.swift */; };
+		E5DD88F71C0C100000612CAD /* instruccionesN1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DD88F61C0C100000612CAD /* instruccionesN1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,7 +187,6 @@
 		E5423C0A1C084A6C00AC2635 /* intentaloDenuevo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intentaloDenuevo.png; sourceTree = "<group>"; };
 		E5423C0D1C08700300AC2635 /* Recuerda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Recuerda.png; sourceTree = "<group>"; };
 		E5423C0F1C0873D100AC2635 /* nivel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nivel1.png; sourceTree = "<group>"; };
-		E57A225B1C0A715700F6D887 /* LevelOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelOneViewController.swift; sourceTree = "<group>"; };
 		E5B51D941BD54214008182EB /* chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chocolate.png; sourceTree = "<group>"; };
 		E5B51D961BD5424F008182EB /* dulce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dulce.png; sourceTree = "<group>"; };
 		E5B51D971BD5424F008182EB /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
@@ -204,9 +203,10 @@
 		E5CA3BF51C0912DB00C02B1F /* n50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n50.png; sourceTree = "<group>"; };
 		E5CA3BF61C0912DB00C02B1F /* n100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n100.png; sourceTree = "<group>"; };
 		E5CA3C001C09141E00C02B1F /* n10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n10.png; sourceTree = "<group>"; };
-		E5CA3C021C0915FC00C02B1F /* instruccionesN1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instruccionesN1.png; sourceTree = "<group>"; };
 		E5CA3C061C0918F500C02B1F /* menuNiveles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuNiveles.png; sourceTree = "<group>"; };
 		E5DD88F21C0BDC2D00612CAD /* teclogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teclogo.png; sourceTree = "<group>"; };
+		E5DD88F41C0BF51900612CAD /* LOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOneViewController.swift; sourceTree = "<group>"; };
+		E5DD88F61C0C100000612CAD /* instruccionesN1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instruccionesN1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,7 +273,7 @@
 			children = (
 				18DE69A81BA6584600FC3B71 /* AppDelegate.swift */,
 				18DE69AA1BA6584600FC3B71 /* GameViewController.swift */,
-				E57A225B1C0A715700F6D887 /* LevelOneViewController.swift */,
+				E5DD88F41C0BF51900612CAD /* LOneViewController.swift */,
 				18DE69AC1BA6584600FC3B71 /* StatisticsViewController.swift */,
 				E525AA221C07FDCE00191A5E /* MainMenuViewController.swift */,
 				E525AA241C07FDF400191A5E /* LevelsViewController.swift */,
@@ -378,11 +378,11 @@
 		E51631F51C07E2310049A665 /* botones */ = {
 			isa = PBXGroup;
 			children = (
-				E5CA3C021C0915FC00C02B1F /* instruccionesN1.png */,
 				E5CA3C001C09141E00C02B1F /* n10.png */,
 				E5CA3BF11C0912DB00C02B1F /* n1.png */,
 				E5423C0F1C0873D100AC2635 /* nivel1.png */,
 				E5CA3BF21C0912DB00C02B1F /* n2.png */,
+				E5DD88F61C0C100000612CAD /* instruccionesN1.png */,
 				E5CA3C061C0918F500C02B1F /* menuNiveles.png */,
 				E5CA3BF31C0912DB00C02B1F /* n5.png */,
 				E5CA3BF41C0912DB00C02B1F /* n20.png */,
@@ -560,7 +560,6 @@
 				E5B51DA31BD5424F008182EB /* libro.png in Resources */,
 				E5DD88F31C0BDC2D00612CAD /* teclogo.png in Resources */,
 				E51632191C07E4460049A665 /* 100pesos.png in Resources */,
-				E5CA3C031C0915FC00C02B1F /* instruccionesN1.png in Resources */,
 				E5423C101C0873D100AC2635 /* nivel1.png in Resources */,
 				E525AA181C07F64F00191A5E /* globito.png in Resources */,
 				E5CA3BF91C0912DB00C02B1F /* n5.png in Resources */,
@@ -574,6 +573,7 @@
 				E516320A1C07E2660049A665 /* botonN3.png in Resources */,
 				E5B51D9F1BD5424F008182EB /* dulce.png in Resources */,
 				E5423C021C0813D700AC2635 /* FondoMain.png in Resources */,
+				E5DD88F71C0C100000612CAD /* instruccionesN1.png in Resources */,
 				182F2BED1BA67AA200F788E5 /* selection.png in Resources */,
 				E51632051C07E2660049A665 /* botonAyuda.png in Resources */,
 				18DE69DC1BA6639900FC3B71 /* 10.jpg in Resources */,
@@ -628,10 +628,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E57A225C1C0A715700F6D887 /* LevelOneViewController.swift in Sources */,
 				E525AA231C07FDCE00191A5E /* MainMenuViewController.swift in Sources */,
 				E525AA251C07FDF400191A5E /* LevelsViewController.swift in Sources */,
 				18DE69AD1BA6584600FC3B71 /* StatisticsViewController.swift in Sources */,
+				E5DD88F51C0BF51900612CAD /* LOneViewController.swift in Sources */,
 				18FF67631BCC5EF60090110F /* GameManager.swift in Sources */,
 				18FF67611BCC5B880090110F /* Bill.swift in Sources */,
 				18FF67691BCC60010090110F /* Item.swift in Sources */,

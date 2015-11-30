@@ -251,17 +251,17 @@ RXN0YWQFw61zdGljYXM
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Recuerda.png" id="iYG-qm-xqO">
-                                <rect key="frame" x="60" y="97" width="639" height="770"/>
+                                <rect key="frame" x="83" y="97" width="602" height="806"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nwT-Om-ZlK">
-                                <rect key="frame" x="512" y="878" width="222" height="126"/>
+                                <rect key="frame" x="577" y="911" width="171" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" image="botonJugar.png"/>
                                 <connections>
-                                    <segue destination="JXX-j9-U3n" kind="push" id="cpa-98-gBf"/>
+                                    <segue destination="IgG-1D-311" kind="push" id="IES-eV-ZUo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -274,144 +274,99 @@ RXN0YWQFw61zdGljYXM
             </objects>
             <point key="canvasLocation" x="3866" y="-1689"/>
         </scene>
-        <!--Level One View Controller-->
-        <scene sceneID="FTd-xo-qBC">
+        <!--One View Controller-->
+        <scene sceneID="svo-nE-5ci">
             <objects>
-                <viewController id="JXX-j9-U3n" customClass="LevelOneViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Gu1-cT-mrt">
+                <viewController id="IgG-1D-311" customClass="LOneViewController" customModule="DownUp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tMg-du-56n">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n100.png" id="UcK-yp-xOc">
-                                <rect key="frame" x="614" y="406" width="134" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES"/>
-                                </accessibility>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n5.png" id="J6a-oy-O5J">
-                                <rect key="frame" x="524" y="507" width="134" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES"/>
-                                </accessibility>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n10.png" id="HZd-Te-i6B">
-                                <rect key="frame" x="614" y="613" width="134" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES"/>
-                                </accessibility>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n2.png" id="vZ0-YL-kfI">
-                                <rect key="frame" x="524" y="717" width="134" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES"/>
-                                </accessibility>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n1.png" id="aJe-nE-PwF">
-                                <rect key="frame" x="614" y="816" width="134" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES"/>
-                                </accessibility>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n20.png" id="xuo-Kf-c8U">
-                                <rect key="frame" x="524" y="918" width="134" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES"/>
-                                </accessibility>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instruccionesN1.png" id="kwz-LY-Tqq">
-                                <rect key="frame" x="0.0" y="185" width="768" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="tvy-eD-wGJ">
+                                <rect key="frame" x="224" y="380" width="321" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nivel1.png" id="KBa-TX-gKZ">
-                                <rect key="frame" x="156" y="67" width="428" height="80"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cKO-Dt-8ae">
+                                <rect key="frame" x="166" y="589" width="437" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                            </imageView>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nNK-nM-tYv" userLabel="2">
-                                <rect key="frame" x="86" y="371" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" identifier="2"/>
-                                <state key="normal" backgroundImage="2.jpg"/>
+                                <color key="backgroundColor" red="0.45098039215686275" green="0.75294117647058822" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.99115508794784546" green="0.97277981042861938" blue="0.96790927648544312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn1:" destination="IgG-1D-311" eventType="touchUpInside" id="77V-o1-QEx"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G88-dY-Lcu" userLabel="5">
-                                <rect key="frame" x="76" y="450" width="80" height="80"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="I3W-QQ-b3c">
+                                <rect key="frame" x="166" y="689" width="437" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <accessibility key="accessibilityConfiguration" identifier="5"/>
-                                <state key="normal" backgroundImage="5.jpg"/>
+                                <color key="backgroundColor" red="0.45098039220000002" green="0.75294117650000003" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.99115508794784546" green="0.97277981042861938" blue="0.96790927648544312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn2:" destination="IgG-1D-311" eventType="touchUpInside" id="TCj-g7-Gsi"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PSf-WA-dE2" userLabel="10">
-                                <rect key="frame" x="66" y="538" width="100" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9vg-JD-7s0">
+                                <rect key="frame" x="166" y="786" width="437" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <accessibility key="accessibilityConfiguration" identifier="10"/>
-                                <state key="normal" backgroundImage="10.jpg"/>
+                                <color key="backgroundColor" red="0.45098039220000002" green="0.75294117650000003" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.99115508794784546" green="0.97277981042861938" blue="0.96790927648544312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn3:" destination="IgG-1D-311" eventType="touchUpInside" id="J8S-0w-tgR"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="50" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X3E-lm-SEj" userLabel="50">
-                                <rect key="frame" x="31" y="779" width="187" height="94"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hJb-yg-yab">
+                                <rect key="frame" x="166" y="888" width="437" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <accessibility key="accessibilityConfiguration" identifier="50"/>
-                                <gestureRecognizers/>
-                                <state key="normal" backgroundImage="50.jpg"/>
+                                <color key="backgroundColor" red="0.45098039220000002" green="0.75294117650000003" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.99115508794784546" green="0.97277981042861938" blue="0.96790927648544312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn4:" destination="IgG-1D-311" eventType="touchUpInside" id="WVJ-Dg-oKR"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5fq-Op-6yw" userLabel="100">
-                                <rect key="frame" x="20" y="893" width="254" height="111"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nivel1.png" id="rLG-LF-hqS">
+                                <rect key="frame" x="0.0" y="81" width="464" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <accessibility key="accessibilityConfiguration" identifier="100"/>
-                                <gestureRecognizers/>
-                                <state key="normal" backgroundImage="100.jpg"/>
-                            </button>
-                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0ja-Qh-qVl" userLabel="20">
-                                <rect key="frame" x="31" y="654" width="171" height="94"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instruccionesN1.png" id="Pfr-3T-KWl">
+                                <rect key="frame" x="0.0" y="237" width="768" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <accessibility key="accessibilityConfiguration" identifier="20"/>
-                                <gestureRecognizers/>
-                                <state key="normal" backgroundImage="20.jpg"/>
-                            </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vwg-Hu-rAo" userLabel="1">
-                                <rect key="frame" x="91" y="309" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" identifier="1"/>
-                                <state key="normal" backgroundImage="1.jpg"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n50.png" id="c9C-0G-8m5">
-                                <rect key="frame" x="524" y="289" width="149" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" identifier="">
-                                    <accessibilityTraits key="traits" button="YES"/>
-                                </accessibility>
                             </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="TCh-Hw-BXB"/>
+                    <navigationItem key="navigationItem" id="jXU-lM-SNT"/>
                     <connections>
-                        <outlet property="cincuenta" destination="c9C-0G-8m5" id="liy-W7-h9b"/>
+                        <outlet property="imageRan" destination="tvy-eD-wGJ" id="6ns-Y3-nPT"/>
+                        <outletCollection property="Buttons" destination="cKO-Dt-8ae" collectionClass="NSMutableArray" id="mlF-Ln-F1B"/>
+                        <outletCollection property="Buttons" destination="I3W-QQ-b3c" collectionClass="NSMutableArray" id="vqY-2J-UCo"/>
+                        <outletCollection property="Buttons" destination="9vg-JD-7s0" collectionClass="NSMutableArray" id="2gH-If-IBq"/>
+                        <outletCollection property="Buttons" destination="hJb-yg-yab" collectionClass="NSMutableArray" id="uNz-7L-CIB"/>
+                        <segue destination="IQZ-j4-65L" kind="push" identifier="intentalo" id="rEN-Wo-cqV"/>
+                        <segue destination="37i-6i-dcn" kind="push" identifier="felicidades" id="dz2-gw-xjN"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kp2-cs-sx4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SjV-aq-nT3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4864" y="-1689"/>
+            <point key="canvasLocation" x="4806" y="-1689"/>
         </scene>
         <!--Seleccionar objeto-->
         <scene sceneID="eL3-Hz-Cfg">
@@ -746,10 +701,11 @@ RXN0YWQFw61zdGljYXM
                         <animations/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="81d-qw-hXX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ab7-Ph-PVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5959" y="487"/>
+            <point key="canvasLocation" x="5979" y="-137"/>
         </scene>
         <!--Juego-->
         <scene sceneID="yhd-i3-rMK">
@@ -796,7 +752,7 @@ RXN0YWQFw61zdGljYXM
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CuA-tZ-oOL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5959" y="-651"/>
+            <point key="canvasLocation" x="5979" y="-1287"/>
         </scene>
     </scenes>
     <resources>
@@ -823,7 +779,7 @@ RXN0YWQFw61zdGljYXM
         <image name="dulce.png" width="580" height="898"/>
         <image name="felicidades.png" width="707" height="695"/>
         <image name="first" width="30" height="30"/>
-        <image name="instruccionesN1.png" width="1420" height="178"/>
+        <image name="instruccionesN1.png" width="1455" height="178"/>
         <image name="intentaloDenuevo.png" width="730" height="446"/>
         <image name="ipad.png" width="256" height="256"/>
         <image name="lapiz.png" width="256" height="256"/>
@@ -833,13 +789,6 @@ RXN0YWQFw61zdGljYXM
         <image name="menuNiveles.png" width="1139" height="1516"/>
         <image name="monedaspng.png" width="1029" height="325"/>
         <image name="monito.png" width="533" height="714"/>
-        <image name="n1.png" width="338" height="216"/>
-        <image name="n10.png" width="337" height="216"/>
-        <image name="n100.png" width="337" height="216"/>
-        <image name="n2.png" width="338" height="216"/>
-        <image name="n20.png" width="337" height="216"/>
-        <image name="n5.png" width="338" height="216"/>
-        <image name="n50.png" width="337" height="216"/>
         <image name="nivel1.png" width="730" height="127"/>
         <image name="osito.png" width="512" height="512"/>
         <image name="pan.png" width="256" height="256"/>
@@ -850,5 +799,7 @@ RXN0YWQFw61zdGljYXM
     <inferredMetricsTieBreakers>
         <segue reference="zLE-sO-tdc"/>
         <segue reference="jvk-JD-3FL"/>
+        <segue reference="rEN-Wo-cqV"/>
+        <segue reference="dz2-gw-xjN"/>
     </inferredMetricsTieBreakers>
 </document>
