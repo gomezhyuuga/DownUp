@@ -88,8 +88,6 @@
 		E5DD88F31C0BDC2D00612CAD /* teclogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DD88F21C0BDC2D00612CAD /* teclogo.png */; };
 		E5DD88F51C0BF51900612CAD /* LOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DD88F41C0BF51900612CAD /* LOneViewController.swift */; };
 		E5DD88F71C0C100000612CAD /* instruccionesN1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DD88F61C0C100000612CAD /* instruccionesN1.png */; };
-		E5DD88FA1C0C1EE800612CAD /* felicidadesFondo.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DD88F81C0C1EE800612CAD /* felicidadesFondo.png */; };
-		E5DD88FB1C0C1EE800612CAD /* intentaloFondo.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DD88F91C0C1EE800612CAD /* intentaloFondo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,8 +207,6 @@
 		E5DD88F21C0BDC2D00612CAD /* teclogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teclogo.png; sourceTree = "<group>"; };
 		E5DD88F41C0BF51900612CAD /* LOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOneViewController.swift; sourceTree = "<group>"; };
 		E5DD88F61C0C100000612CAD /* instruccionesN1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instruccionesN1.png; sourceTree = "<group>"; };
-		E5DD88F81C0C1EE800612CAD /* felicidadesFondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = felicidadesFondo.png; sourceTree = "<group>"; };
-		E5DD88F91C0C1EE800612CAD /* intentaloFondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intentaloFondo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -431,8 +427,6 @@
 		E5423C081C084A4300AC2635 /* Messages */ = {
 			isa = PBXGroup;
 			children = (
-				E5DD88F81C0C1EE800612CAD /* felicidadesFondo.png */,
-				E5DD88F91C0C1EE800612CAD /* intentaloFondo.png */,
 				E5423C091C084A6C00AC2635 /* felicidades.png */,
 				E5423C0A1C084A6C00AC2635 /* intentaloDenuevo.png */,
 			);
@@ -560,7 +554,6 @@
 				E525AA1F1C07F96C00191A5E /* niveles.png in Resources */,
 				E5B51DA41BD5424F008182EB /* manzana.png in Resources */,
 				E51632161C07E4460049A665 /* 5pesos.png in Resources */,
-				E5DD88FA1C0C1EE800612CAD /* felicidadesFondo.png in Resources */,
 				E5B51DA61BD5424F008182EB /* pan.png in Resources */,
 				E5423C061C0818C300AC2635 /* signomas.png in Resources */,
 				E5B51D951BD54214008182EB /* chocolate.png in Resources */,
@@ -616,7 +609,6 @@
 				18DE69DE1BA6639900FC3B71 /* 50.jpg in Resources */,
 				E51632071C07E2660049A665 /* botonJugar.png in Resources */,
 				182F2BEE1BA67AA200F788E5 /* statistics.png in Resources */,
-				E5DD88FB1C0C1EE800612CAD /* intentaloFondo.png in Resources */,
 				E51632081C07E2660049A665 /* botonN1.png in Resources */,
 				E51632091C07E2660049A665 /* botonN2.png in Resources */,
 			);

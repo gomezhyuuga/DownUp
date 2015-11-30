@@ -26,23 +26,14 @@ class LOneViewController: UIViewController {
     var Questions = [Question]()
     var qNum = Int()
     var aNum = Int()
-    var timeRunning = false
-    var time = NSTimer()
-    var timerCount = 0
-    var intentalo = false
-    var felicidades = false
     
     //Outlets
     @IBOutlet weak var imageRan: UIImageView!
     @IBOutlet var Buttons: [UIButton]!
-    @IBOutlet weak var intentaloDeNuevo: UIImageView!
-    @IBOutlet weak var felicidadesImage: UIImageView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        intentaloDeNuevo.hidden = true
-        felicidadesImage.hidden = true
         getDayOfTheWeek()
         print("\(self.today)")
         self.start = NSDate()
@@ -53,7 +44,7 @@ class LOneViewController: UIViewController {
         let image4 = UIImage(named: arrImages[4])
         let image5 = UIImage(named: arrImages[5])
         let image6 = UIImage(named: arrImages[6])
-        Questions = [Question(Image: image, Answers: ["2 pesos - Dos pesos","10 pesos - Diez pesos","5 pesos - Cinco pesos","1 peso - Un peso"], Answer: 3), Question(Image: image1, Answers: ["20 pesos - Veinte pesos","5 pesos - Cinco pesos","2 pesos - Dos pesos","10 pesos - Diez pesos"], Answer: 2), Question(Image: image2, Answers: ["5 pesos - Cinco pesos","100 pesos - Cien pesos","50 pesos - Cincuenta pesos","2 pesos - Dos pesos"], Answer: 0), Question(Image: image3, Answers: ["100 pesos - Cien pesos","10 pesos - Diez pesos","1 peso - Un peso","20 pesos - Veinte pesos"], Answer: 1), Question(Image: image4, Answers: ["20 pesos - Veinte pesos","2 pesos - Dos pesos","10 pesos - Diez pesos","50 pesos - Cincuenta pesos"], Answer: 0), Question(Image: image5, Answers: ["5 pesos - Cinco pesos","10 pesos - Diez pesos","50 pesos - Cincuenta pesos","100 pesos - Cien pesos"], Answer: 2), Question(Image: image6, Answers: ["50 pesos - Cincuenta pesos","10 pesos - Diez pesos ","1 peso - Un peso","100 pesos - Cien pesos"], Answer: 3)]
+        Questions = [Question(Image: image, Answers: ["2 pesos - Dos pesos","10 pesos - Diez pesos","5 pesos - Cinco pesos","1 peso - Un peso"], Answer: 3), Question(Image: image1, Answers: ["20 pesos - Veinte pesos","5 pesos - Cinco pesos","2 pesos - Dos pesos","10 pesos - Diez pesos"], Answer: 2), Question(Image: image2, Answers: ["5 pesos - Cinco pesos","100 pesos - Cien pesos","50 pesos - Cincuenta pesos","2 pesos - Dos pesos"], Answer: 0), Question(Image: image3, Answers: ["100 pesos - Cien pesos","10 pesos - Diez pesos","1 peso - Un peso","20 pesos - Veinte pesos"], Answer: 1), Question(Image: image4, Answers: ["5 pesos - Cinco pesos","20 pesos - Veinte pesos","2 pesos - Dos pesos","10 pesos - Diez pesos"], Answer: 1), Question(Image: image5, Answers: ["5 pesos - Cinco pesos","10 pesos - Diez pesos","50 pesos - Cincuenta pesos","100 pesos - Cien pesos"], Answer: 2), Question(Image: image6, Answers: ["50 pesos - Cincuenta pesos","100 pesos - Cien pesos","1 peso - Un peso","10 pesos - Diez pesos"], Answer: 1)]
         pickQuestion()
         // Do any additional setup after loading the view.
     }
@@ -114,9 +105,7 @@ class LOneViewController: UIViewController {
             }
             NSUserDefaults.standardUserDefaults().setDouble(timeTaken, forKey: prefsKey)
             print("\(timeTaken) seconds.")
-            felicidadesImage.hidden = false
-            felicidades = true
-            startTime()
+            alert("DONE")
         }
     }
     
@@ -124,9 +113,7 @@ class LOneViewController: UIViewController {
         if aNum == 0{
             pickQuestion()
         }else{
-            startTime()
-            intentaloDeNuevo.hidden = false
-            intentalo = true
+            alert("FAIL")
         }
     }
     
@@ -134,9 +121,7 @@ class LOneViewController: UIViewController {
         if aNum == 1{
             pickQuestion()
         }else{
-            startTime()
-            intentaloDeNuevo.hidden = false
-            intentalo = true
+            alert("FAIL")
         }
     }
     
@@ -144,9 +129,7 @@ class LOneViewController: UIViewController {
         if aNum == 2{
             pickQuestion()
         }else{
-            startTime()
-            intentaloDeNuevo.hidden = false
-            intentalo = true
+            alert("FAIL")
         }
     }
     
@@ -155,42 +138,18 @@ class LOneViewController: UIViewController {
         if aNum == 3{
             pickQuestion()
         }else{
-            startTime()
-            intentaloDeNuevo.hidden = false
-            intentalo = true
-        }
-    }
-    
-    func counting(){
-        timerCount += 1
-        if(timerCount>=3 && intentalo == true){
-            intentaloDeNuevo.hidden = true
-            stopTime()
-            timerCount = 0
-            intentalo = false
-        }else if(timerCount>=4 && felicidades == true){
-            felicidadesImage.hidden = true
-            stopTime()
-            timerCount = 0
-            felicidades = false
-            performSegueWithIdentifier("regresar", sender: self)
-        }
-    }
-    
-    func startTime(){
-        if timeRunning == false{
-            time = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("counting"), userInfo: nil, repeats: true)
-            timeRunning = true
-        }
-    }
-    
-    func stopTime(){
-        if timeRunning == true{
-            time.invalidate()
-            timeRunning = false
+           alert("FAIL")
         }
     }
 
+    private func alert(msg: String) {
+        if msg == "FAIL" {
+            performSegueWithIdentifier("intentalo", sender: self)
+        } else {
+            performSegueWithIdentifier("felicidades", sender: self)
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

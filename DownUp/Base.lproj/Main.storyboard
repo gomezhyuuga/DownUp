@@ -99,16 +99,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuNiveles.png" id="cf0-Px-QWb">
-                                <rect key="frame" x="0.0" y="66" width="768" height="964"/>
+                                <rect key="frame" x="0.0" y="66" width="768" height="958"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
                             <view contentMode="scaleToFill" id="S9s-8n-rBI">
-                                <rect key="frame" x="274" y="351" width="220" height="508"/>
+                                <rect key="frame" x="274" y="355" width="220" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eS8-uq-rjI">
+                                        <rect key="frame" x="-5" y="33" width="230" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" image="botonN1.png"/>
+                                        <connections>
+                                            <segue destination="Icf-Bg-UCT" kind="push" id="Bf7-D3-YOG"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AeP-0k-HT5">
-                                        <rect key="frame" x="-5" y="355" width="230" height="153"/>
+                                        <rect key="frame" x="-5" y="351" width="230" height="153"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <state key="normal" image="botonN3.png"/>
@@ -117,21 +126,12 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="J5H-c9-UYx">
-                                        <rect key="frame" x="-5" y="178" width="230" height="152"/>
+                                        <rect key="frame" x="-5" y="191" width="230" height="152"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <state key="normal" image="botonN2.png"/>
                                         <connections>
                                             <segue destination="tNb-Wj-eAg" kind="push" id="s4C-6A-4Xt"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eS8-uq-rjI">
-                                        <rect key="frame" x="-5" y="15" width="230" height="140"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <state key="normal" image="botonN1.png"/>
-                                        <connections>
-                                            <segue destination="Icf-Bg-UCT" kind="push" id="Bf7-D3-YOG"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -251,12 +251,12 @@ RXN0YWQFw61zdGljYXM
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Recuerda.png" id="iYG-qm-xqO">
-                                <rect key="frame" x="83" y="68" width="602" height="806"/>
+                                <rect key="frame" x="83" y="97" width="602" height="806"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nwT-Om-ZlK">
-                                <rect key="frame" x="513" y="880" width="229" height="124"/>
+                                <rect key="frame" x="577" y="911" width="171" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" image="botonJugar.png"/>
@@ -349,30 +349,19 @@ RXN0YWQFw61zdGljYXM
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="felicidadesFondo.png" id="rHH-nx-JfH">
-                                <rect key="frame" x="13" y="75" width="755" height="929"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intentaloFondo.png" id="nhF-ur-AsK">
-                                <rect key="frame" x="61" y="436" width="647" height="518"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="jXU-lM-SNT"/>
                     <connections>
-                        <outlet property="felicidadesImage" destination="rHH-nx-JfH" id="7Jt-w7-O7g"/>
                         <outlet property="imageRan" destination="tvy-eD-wGJ" id="6ns-Y3-nPT"/>
-                        <outlet property="intentaloDeNuevo" destination="nhF-ur-AsK" id="FdF-gt-DNB"/>
                         <outletCollection property="Buttons" destination="cKO-Dt-8ae" collectionClass="NSMutableArray" id="mlF-Ln-F1B"/>
                         <outletCollection property="Buttons" destination="I3W-QQ-b3c" collectionClass="NSMutableArray" id="vqY-2J-UCo"/>
                         <outletCollection property="Buttons" destination="9vg-JD-7s0" collectionClass="NSMutableArray" id="2gH-If-IBq"/>
                         <outletCollection property="Buttons" destination="hJb-yg-yab" collectionClass="NSMutableArray" id="uNz-7L-CIB"/>
-                        <segue destination="fEh-g1-Rac" kind="push" identifier="regresar" id="Qzg-Cw-whc"/>
+                        <segue destination="IQZ-j4-65L" kind="push" identifier="intentalo" id="rEN-Wo-cqV"/>
+                        <segue destination="37i-6i-dcn" kind="push" identifier="felicidades" id="dz2-gw-xjN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SjV-aq-nT3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -789,11 +778,9 @@ RXN0YWQFw61zdGljYXM
         <image name="chocolate.png" width="256" height="256"/>
         <image name="dulce.png" width="580" height="898"/>
         <image name="felicidades.png" width="707" height="695"/>
-        <image name="felicidadesFondo.png" width="957" height="1103"/>
         <image name="first" width="30" height="30"/>
         <image name="instruccionesN1.png" width="1455" height="178"/>
         <image name="intentaloDenuevo.png" width="730" height="446"/>
-        <image name="intentaloFondo.png" width="863" height="583"/>
         <image name="ipad.png" width="256" height="256"/>
         <image name="lapiz.png" width="256" height="256"/>
         <image name="leche.png" width="698" height="1300"/>
@@ -810,8 +797,9 @@ RXN0YWQFw61zdGljYXM
         <image name="selection.png" width="768" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jvk-JD-3FL"/>
         <segue reference="zLE-sO-tdc"/>
-        <segue reference="Qzg-Cw-whc"/>
+        <segue reference="jvk-JD-3FL"/>
+        <segue reference="rEN-Wo-cqV"/>
+        <segue reference="dz2-gw-xjN"/>
     </inferredMetricsTieBreakers>
 </document>
