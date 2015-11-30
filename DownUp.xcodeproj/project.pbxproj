@@ -14,6 +14,8 @@
 		182F2BEE1BA67AA200F788E5 /* statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 182F2BE91BA67AA200F788E5 /* statistics.png */; };
 		186E931C1C0870AD002D81D9 /* leche.png in Resources */ = {isa = PBXBuildFile; fileRef = 186E931B1C0870AD002D81D9 /* leche.png */; };
 		186E93211C087134002D81D9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E93201C087134002D81D9 /* Utils.swift */; };
+		1878E0931C0C485E005CB114 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51937C9F1C0795520085B471 /* Charts.framework */; };
+		1878E0941C0C485E005CB114 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51937C9F1C0795520085B471 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18C3E4781C0C310D00F195EF /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3E4771C0C310D00F195EF /* HelpViewController.swift */; };
 		18D9E6141C08847300AF5E3F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9E6131C08847300AF5E3F /* AlertViewController.swift */; };
 		18DA83D21C07DCAB000FBC7D /* Anna-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18DA83D11C07DCAB000FBC7D /* Anna-Roman.otf */; };
@@ -85,6 +87,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1878E0951C0C485F005CB114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51937C821C0795480085B471 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
 		18DE69BB1BA6584600FC3B71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 18DE699B1BA6584500FC3B71 /* Project object */;
@@ -114,6 +123,20 @@
 			remoteInfo = ChartsTests;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1878E0971C0C485F005CB114 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1878E0941C0C485E005CB114 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		182F2BE51BA67AA200F788E5 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
@@ -203,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51937CA41C0795E00085B471 /* Charts.framework in Frameworks */,
+				1878E0931C0C485E005CB114 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,10 +449,12 @@
 				18DE699F1BA6584500FC3B71 /* Sources */,
 				18DE69A01BA6584500FC3B71 /* Frameworks */,
 				18DE69A11BA6584500FC3B71 /* Resources */,
+				1878E0971C0C485F005CB114 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1878E0961C0C485F005CB114 /* PBXTargetDependency */,
 			);
 			name = DownUp;
 			productName = DownUp;
@@ -631,6 +657,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1878E0961C0C485F005CB114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 1878E0951C0C485F005CB114 /* PBXContainerItemProxy */;
+		};
 		18DE69BC1BA6584600FC3B71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 18DE69A21BA6584500FC3B71 /* DownUp */;
@@ -748,6 +779,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DownUp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -764,6 +796,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DownUp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
