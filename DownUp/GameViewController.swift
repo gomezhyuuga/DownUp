@@ -182,11 +182,4 @@ class GameViewController: UIViewController {
 }
 
 
-/*var frm: CGRect = imageView.frame
-frm.origin.x = frm.origin.x - 50
-frm.origin.y = frm.origin.y - 50
-frm.size.width = frm.size.width + 500
-frm.size.height = frm.size.height + 500
-imageView.frame = frm
-*/
 

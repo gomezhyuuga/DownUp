@@ -87,6 +87,7 @@
 		E5CA3C011C09141E00C02B1F /* n10.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3C001C09141E00C02B1F /* n10.png */; };
 		E5CA3C031C0915FC00C02B1F /* instruccionesN1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3C021C0915FC00C02B1F /* instruccionesN1.png */; };
 		E5CA3C071C0918F500C02B1F /* menuNiveles.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CA3C061C0918F500C02B1F /* menuNiveles.png */; };
+		E5DD88F31C0BDC2D00612CAD /* teclogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DD88F21C0BDC2D00612CAD /* teclogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +206,7 @@
 		E5CA3C001C09141E00C02B1F /* n10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n10.png; sourceTree = "<group>"; };
 		E5CA3C021C0915FC00C02B1F /* instruccionesN1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instruccionesN1.png; sourceTree = "<group>"; };
 		E5CA3C061C0918F500C02B1F /* menuNiveles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuNiveles.png; sourceTree = "<group>"; };
+		E5DD88F21C0BDC2D00612CAD /* teclogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teclogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +350,7 @@
 			children = (
 				E516321A1C07E45F0049A665 /* monito.png */,
 				E5B51D961BD5424F008182EB /* dulce.png */,
+				E5DD88F21C0BDC2D00612CAD /* teclogo.png */,
 				E5B51D971BD5424F008182EB /* ipad.png */,
 				E525AA171C07F64F00191A5E /* globito.png */,
 				E5B51D981BD5424F008182EB /* lapiz.png */,
@@ -555,6 +558,7 @@
 				E5423C061C0818C300AC2635 /* signomas.png in Resources */,
 				E5B51D951BD54214008182EB /* chocolate.png in Resources */,
 				E5B51DA31BD5424F008182EB /* libro.png in Resources */,
+				E5DD88F31C0BDC2D00612CAD /* teclogo.png in Resources */,
 				E51632191C07E4460049A665 /* 100pesos.png in Resources */,
 				E5CA3C031C0915FC00C02B1F /* instruccionesN1.png in Resources */,
 				E5423C101C0873D100AC2635 /* nivel1.png in Resources */,

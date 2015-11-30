@@ -16,15 +16,18 @@ class LevelOneViewController: UIViewController {
     var start: NSDate!
     var finish: NSDate!
     var today: Int = 0
-    
+    static var level: Level = Level.ONE
+    var arrImages = ["n1.png","n2.png","n5.png","n10.png","n20.png","n50.png","n100.png"];
     
     //Outlets
     @IBOutlet weak var cincuentaView: UIView!
+    @IBOutlet weak var cincuenta: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         gestureButtons()
         getDayOfTheWeek()
+        imageposition(cincuenta)
         print("\(self.today)")
         self.start = NSDate()
     }
@@ -33,6 +36,8 @@ class LevelOneViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
     
     private func getDayOfTheWeek() {
         let dateNow = NSDate()
@@ -86,7 +91,22 @@ class LevelOneViewController: UIViewController {
     private func draggedIntoDropZone(gesture: UIPanGestureRecognizer) -> Bool {
         return CGRectContainsPoint(self.cincuentaView.bounds, gesture.locationInView(self.cincuentaView))
     }
-
+    
+    func ranImages(){
+        for i in 0..<arrImages.count{
+            let j: Int = Int(arc4random())%arrImages.count;
+            let aux = arrImages[i]
+            arrImages[i] = arrImages[j]
+            arrImages[j]=aux
+        }
+    }
+    
+    func imageposition(image: UIImageView){
+        image.frame = CGRect(x: image.frame.origin.x, y: image.frame.origin.y, width: image.frame.size.width, height: image.frame.size.height)
+        let pos = image.frame
+        print("\(pos)")
+    }
+    
     /*
     // MARK: - Navigation
 
