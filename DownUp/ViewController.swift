@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     static var level: Level = Level.TWO
     @IBOutlet weak var lblTitle: UILabel!
     @IBAction func back(sender: AnyObject) {
-        navigationController!.popToRootViewControllerAnimated(true)
+        navigationController!.popViewControllerAnimated(true)
     }
 
     override func viewWillAppear(animated: Bool) {

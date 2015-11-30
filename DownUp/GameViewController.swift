@@ -32,7 +32,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var dropZoneView: UIView!
     @IBOutlet weak var imgItem: UIImageView!
     @IBAction func back(sender: AnyObject) {
-        navigationController!.popToRootViewControllerAnimated(true)
+        navigationController!.popViewControllerAnimated(true)
     }
     
     override func viewDidLoad() {
