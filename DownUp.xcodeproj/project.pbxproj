@@ -14,6 +14,7 @@
 		182F2BEE1BA67AA200F788E5 /* statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 182F2BE91BA67AA200F788E5 /* statistics.png */; };
 		186E931C1C0870AD002D81D9 /* leche.png in Resources */ = {isa = PBXBuildFile; fileRef = 186E931B1C0870AD002D81D9 /* leche.png */; };
 		186E93211C087134002D81D9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E93201C087134002D81D9 /* Utils.swift */; };
+		18C3E4781C0C310D00F195EF /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3E4771C0C310D00F195EF /* HelpViewController.swift */; };
 		18D9E6141C08847300AF5E3F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9E6131C08847300AF5E3F /* AlertViewController.swift */; };
 		18DA83D21C07DCAB000FBC7D /* Anna-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18DA83D11C07DCAB000FBC7D /* Anna-Roman.otf */; };
 		18DE69A91BA6584600FC3B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE69A81BA6584600FC3B71 /* AppDelegate.swift */; };
@@ -129,6 +130,7 @@
 		182F2BE91BA67AA200F788E5 /* statistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statistics.png; sourceTree = "<group>"; };
 		186E931B1C0870AD002D81D9 /* leche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leche.png; sourceTree = "<group>"; };
 		186E93201C087134002D81D9 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		18C3E4771C0C310D00F195EF /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		18D9E6131C08847300AF5E3F /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		18DA83D11C07DCAB000FBC7D /* Anna-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anna-Roman.otf"; sourceTree = "<group>"; };
 		18DE69A31BA6584500FC3B71 /* DownUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,11 +273,12 @@
 		18DE69A51BA6584500FC3B71 /* DownUp */ = {
 			isa = PBXGroup;
 			children = (
+				E525AA241C07FDF400191A5E /* LevelsViewController.swift */,
+				18C3E4771C0C310D00F195EF /* HelpViewController.swift */,
 				18DE69AA1BA6584600FC3B71 /* GameViewController.swift */,
 				E5DD88F41C0BF51900612CAD /* LOneViewController.swift */,
 				18DE69AC1BA6584600FC3B71 /* StatisticsViewController.swift */,
 				E525AA221C07FDCE00191A5E /* MainMenuViewController.swift */,
-				E525AA241C07FDF400191A5E /* LevelsViewController.swift */,
 				18DE69CA1BA65A8500FC3B71 /* AboutViewController.swift */,
 				18FB6C7E1BFF6E45000FA72F /* ViewController.swift */,
 				18DE69A81BA6584600FC3B71 /* AppDelegate.swift */,
@@ -635,6 +638,7 @@
 				18FF67631BCC5EF60090110F /* GameManager.swift in Sources */,
 				18FF67611BCC5B880090110F /* Bill.swift in Sources */,
 				18FF67691BCC60010090110F /* Item.swift in Sources */,
+				18C3E4781C0C310D00F195EF /* HelpViewController.swift in Sources */,
 				18DE69A91BA6584600FC3B71 /* AppDelegate.swift in Sources */,
 				18D9E6141C08847300AF5E3F /* AlertViewController.swift in Sources */,
 				186E93211C087134002D81D9 /* Utils.swift in Sources */,
